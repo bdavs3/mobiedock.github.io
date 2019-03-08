@@ -1,33 +1,78 @@
-.App {
-  text-align: center;
+.scroll {
+  height: 10%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.profile, .profile3, .matt{
+  height: 100px;
+  display: block;
+  margin: 20px 20px 20px -10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1;
+  grid-gap: 30px;
 }
 
-.App-link {
-  color: #61dafb;
+.engineers {
+  grid-row: 1;
+  grid-column: 1 / span 1;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2;
+  grid-gap: 5px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.engineers-1 {
+  grid-row: 2;
+  grid-column: 1 / span 1;
+}
+
+.engineers-2 {
+  grid-row: 2;
+  grid-column: 2 / span 1;
+}
+
+.etc {
+  grid-row: 1;
+  grid-column: 2 / span 1;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 4;
+  grid-gap: 5px;
+}
+
+.cs {
+  grid-row: 2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1;
+  grid-gap: 5px;
+}
+
+.cs-head {
+  grid-row: 1;
+}
+
+.E-head{
+  grid-row: 3;
+}
+
+.profile3 {
+  grid-row: 2;
+}
+
+.matt {
+  grid-row: 4;
+}
+
+.scroll, h2 {
+  display: block;
+  margin:auto;
+}
+
+div {
+  display: block;
+  margin: auto;
 }
