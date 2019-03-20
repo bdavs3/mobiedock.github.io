@@ -1,0 +1,19 @@
+
+.profileImg{
+  height: 15vh;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    margin-top: 10vh;
+    align-items: center;
+    justify-items: center;
+    grid-gap: 30px;
+}
+
+.profile {
+    display: block;
+    text-align: center;
+}

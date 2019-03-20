@@ -1,9 +1,14 @@
 import React from "react";
+import scroll from "../img/scroll.png";
+
+import "./components.css";
 
 export default () => {
     return (
-        <div className="component contact-component">
+        <div className="components">
             <h2>Contact Us</h2>
+            <div className="content">hey there akhflkajhjkdfhajkhfkahlfkj kjldhfjkhakjdfhajkhdfjkla kjdhlfkjahfuelbjkaf djfakjlfkadfj hlfhhfkhfjkhkjlf kah fkla</div>
+             <img className="scroll" src={scroll} alt="scroll" />;
         </div>
     )
 }

@@ -30,12 +30,12 @@ export default class FullPage extends React.Component {
 
         return <React.Fragment>
             <ReactPageScroller ref={c => this._pageScroller = c} pageOnChange={this.pageOnChange}>
+                <Team/>
                 <Home/>
                 <Problem/>
                 <Solution/>
                 <Current/>
                 <Software/>
-                <Team/>
                 <Contact/>
             </ReactPageScroller>
         </React.Fragment>

@@ -1,0 +1,27 @@
+
+.components {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+}
+
+h2 {
+    margin-top: 40vh;
+    grid-columns: 1 / span 1;
+    grid-rows: 1;
+}
+
+.content {
+    margin-top: 40vh;
+    grid-columns: 2 / span 1;
+    grid-rows: 1;
+}
+
+.scroll {
+    height: 100px;
+    grid-columns: 3 / span 1;
+    grid-rows: 1;
+    display: block;
+    margin: 35vh auto auto auto;
+}
