@@ -12,7 +12,7 @@ export default () => {
     return (
         <div className="components">
             <h2>The Team</h2>
-            <div className="content">
+            <div className="content-team">
                  <div className="profile">
                     <img className="profileImg" src={ph} alt="p1" />
                     <figcaption className="description">Billy Walker<br />Mechanical Engineering</figcaption>
