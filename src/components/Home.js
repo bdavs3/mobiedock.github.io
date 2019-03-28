@@ -1,16 +1,33 @@
-import React from "react";
-import scroll from "../img/scroll.png";
+import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+import { Jumbotron, Row, Col, Image, Button } from 'react-bootstrap';
+import './Home.css';
 
-import "./components.css";
+const img = require('../dock2.jpg');
+const fullPageStyle = {
+  height: '100vh',
+  backgroundImage: `url(${img})`,
+  backgroundPosition: 'center',
+  backgroundRepeat: 'no-repeat',
+  backgroundSize: 'cover',
+}
 
-export default () => {
+export default class Home extends Component {
+  render() {
     return (
-        <div className="components">
-            <h2>Mobiedock</h2>
-            <div className="content">
-                hey there akhflkajhjkdfhajkhfkahlfkj kjldhfjkhakjdfhajkhdfjkla kjdhlfkjahfuelbjkaf djfakjlfkadfj hlfhhfkhfjkhkjlf kah fkla
+      <div>
+
+        <div className="full-page-image" style={fullPageStyle}>
+          <div className="overlay"></div>
+          <div className="center-page-caption text-center">
+            <div className ="full-width">
+              <h1 className="main-heading text-white">MobieDock</h1>
             </div>
-            <img className="scroll" src={scroll} alt="scroll" />;
+          </div>
         </div>
+
+      </div>
+
     )
+  }
 }
