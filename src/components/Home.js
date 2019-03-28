@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Jumbotron, Row, Col, Image, Button } from 'react-bootstrap';
 import './Home.css';
 
-const img = require('../dock2.jpg');
+const img = require('../shed-lmu2.png');
 const fullPageStyle = {
   height: '100vh',
   backgroundImage: `url(${img})`,
