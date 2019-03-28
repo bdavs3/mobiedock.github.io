@@ -15,7 +15,7 @@ const fullPageStyle = {
 export default class Home extends Component {
   render() {
     return (
-      <div>
+      <div id="home">
 
         <div className="full-page-image" style={fullPageStyle}>
           <div className="overlay"></div>
