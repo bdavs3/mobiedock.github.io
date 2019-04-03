@@ -35,8 +35,33 @@ export default class CustomNavbar extends Component {
               About
             </Link>
           </Nav.Link>
-          <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#team">Our Team</Nav.Link>
+
+          <Nav.Link href="#features">
+            <Link
+                activeClass="active"
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+              Features
+              </Link>
+          </Nav.Link>
+
+          <Nav.Link href="#team">
+            <Link
+                activeClass="active"
+                to="team"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+              Our Team
+              </Link>
+          </Nav.Link>
+
         </Nav>
       </Navbar>
 
