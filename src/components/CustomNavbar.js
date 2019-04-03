@@ -36,7 +36,7 @@ export default class CustomNavbar extends Component {
             </Link>
           </Nav.Link>
           <Nav.Link href="#features">Features</Nav.Link>
-          <Nav.Link href="#pricing">Pricing</Nav.Link>
+          <Nav.Link href="#team">Our Team</Nav.Link>
         </Nav>
       </Navbar>
 
