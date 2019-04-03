@@ -3,15 +3,6 @@ import { Link } from 'react-router-dom';
 import { Jumbotron, Row, Col, Image, Button } from 'react-bootstrap';
 import './About.css';
 
-const img = require('../dock2.jpg');
-const fullPageStyle = {
-  height: '100%',
-  backgroundImage: `url(${img})`,
-  backgroundPosition: 'center',
-  backgroundRepeat: 'no-repeat',
-  backgroundSize: 'cover'
-}
-
 export default class About extends Component {
   render() {
     return (
