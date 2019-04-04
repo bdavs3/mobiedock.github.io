@@ -1,0 +1,26 @@
+.service-list{
+	padding:0 0 0 0;
+	font-size:14px;
+	margin-bottom:40px;
+}
+.service-list-col1{
+	float:left;
+	width:60px;
+  margin-right: 30px;
+}
+
+.service-list-col1 .icon{
+	font-style:normal;
+	font-size:50px;
+	display:block;
+	color:#222;
+	font-family: 'FontAwesome';
+	line-height:38px;
+}
+.service-list-col2{
+	overflow:hidden;
+}
+
+img {
+  max-height: 400px;
+}

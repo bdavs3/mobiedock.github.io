@@ -1,3 +1,9 @@
 p {
   font-size: 20px;
 }
+
+.full-div-image {
+  height: 250px;
+  -webkit-filter: grayscale(100%);
+  filter: gray;
+}
