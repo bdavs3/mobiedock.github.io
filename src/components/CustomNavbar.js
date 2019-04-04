@@ -23,29 +23,29 @@ export default class CustomNavbar extends Component {
               Home
             </Link>
           </Nav.Link>
-          <Nav.Link href="#about">
+          <Nav.Link href="#problem">
             <Link
                 activeClass="active"
-                to="about"
+                to="problem"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-              About
+              Problem
             </Link>
           </Nav.Link>
 
-          <Nav.Link href="#features">
+          <Nav.Link href="#solution">
             <Link
                 activeClass="active"
-                to="home"
+                to="solution"
                 spy={true}
                 smooth={true}
                 offset={-70}
                 duration={500}
               >
-              Features
+              Solution
               </Link>
           </Nav.Link>
 
