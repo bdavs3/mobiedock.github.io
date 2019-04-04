@@ -10,11 +10,12 @@ import Team from './components/Team';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMoneyCheckAlt, faSolarPanel, faSitemap} from '@fortawesome/free-solid-svg-icons'
+import { faMoneyCheckAlt, faSolarPanel, faSitemap, faMapMarkedAlt} from '@fortawesome/free-solid-svg-icons'
 
 library.add(faSolarPanel)
 library.add(faSitemap)
 library.add(faMoneyCheckAlt)
+library.add(faMapMarkedAlt)
 
 class App extends Component {
   render() {
