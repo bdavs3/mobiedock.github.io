@@ -12,12 +12,18 @@ import masaki from '../images/team-imgs/masaki.jpeg';
 import matt from '../images/team-imgs/matt.jpeg';
 import alex from '../images/team-imgs/profile.png';
 import ahmad from '../images/team-imgs/ahmad.jpeg';
+import WOW from "wowjs";
 
 class CardExample extends Component {
+  componentDidMount() {
+    const wow = new WOW.WOW();
+    wow.init();
+  }
+
   render() {
     return (
     <MDBRow>
-      <MDBRow>
+      <MDBRow className="text-white wow fadeInUp" data-wow-delay="0.8s" >
         <MDBCol>
           <MDBCard cascade>
             <MDBCardImage cascade className="img-fluid" src={billy}/>
@@ -47,7 +53,7 @@ class CardExample extends Component {
         </MDBCol>
       </MDBRow>
 
-      <MDBRow>
+      <MDBRow className="text-white wow fadeInUp" data-wow-delay="0.8s">
       <MDBCol>
           <MDBCard cascade>
             <MDBCardImage cascade className="img-fluid" src={ahmad} />
