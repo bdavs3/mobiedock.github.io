@@ -2,3 +2,7 @@
   max-height: 20px !important;
   filter: brightness(250%);
 }
+
+.link {
+  font-size: 60%;
+}

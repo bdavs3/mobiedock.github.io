@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Row, Col, Image, Button, Container } from 'react-bootstrap';
 import './About.css';
 
+import WOW from 'wowjs';
 
 const img = require('../images/scooter-clutter.jpg');
 const img2 = require('../images/electric-grid.jpg');
@@ -30,23 +31,17 @@ const fullDivStyle3 = {
 }
 
 export default class About extends Component {
+  componentDidMount() {
+		const wow = new WOW.WOW();
+		wow.init();
+  }
+  
   render() {
     return (
       <div>
-        {/*
-        <section id="about" className="py-5">
-          <div className=" container text-center my-5">
-            <h1> About Us </h1>
-            <p className="my-4">
-            MobieDock is the first sustainably powered eDocking and charging solution for the shared micromobility market. Sleek stations declutter your city or campus, charge devices all day and night, and monetize this growing market – all while harnessing the sun’s energy for zero emissions.
-            </p>
-          </div>
-        </section>
-        */}
-
         <section id="problem" className="bg-black text-center">
           <Container className="py-5">
-            <h1> What We're Solving </h1>
+            <h1 > What We're Solving </h1>
           </Container>
 
           <Container fluid>
@@ -56,7 +51,7 @@ export default class About extends Component {
                     <div className="overlay"></div>
                     <div className="center-page-caption text-center text-white">
                       <div className ="full-width">
-                        <h3>Cluttered Streets</h3>
+                        <h3 class = "wow rollIn" data-wow-delay="0.8s">Cluttered Streets</h3>
                       </div>
                     </div>
                   </div>
@@ -66,7 +61,7 @@ export default class About extends Component {
                   <div className="overlay"></div>
                   <div className="center-page-caption text-center text-white">
                     <div className ="full-width">
-                      <h3>CO2 Emissions</h3>
+                      <h3 class = "wow rollIn" data-wow-delay="0.8s">CO2 Emissions</h3>
                     </div>
                   </div>
                 </div>
@@ -76,7 +71,7 @@ export default class About extends Component {
                   <div className="overlay"></div>
                   <div className="center-page-caption text-center text-white">
                     <div className ="full-width">
-                      <h3>Lack of Charging Infrastructure</h3>
+                      <h3 class = "wow rollIn" data-wow-delay="0.8s">Lack of Charging Infrastructure</h3>
                     </div>
                   </div>
                 </div>
