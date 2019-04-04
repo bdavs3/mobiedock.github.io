@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { Jumbotron, Row, Col, Image, Container} from 'react-bootstrap';
 import './Team.css';
 
-import Profile from './Profiles';
+import Profile from './TeamCards';
 
 export default class About extends Component {
 	render() {
