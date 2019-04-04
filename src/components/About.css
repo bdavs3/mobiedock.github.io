@@ -2,6 +2,10 @@ p {
   font-size: 20px;
 }
 
+#problem h3 {
+  font-size: 25px;
+}
+
 .full-div-image {
   height: 250px;
   -webkit-filter: grayscale(100%);
