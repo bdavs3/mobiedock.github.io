@@ -19,7 +19,7 @@ library.add(faSolarPanel)
 library.add(faSitemap)
 library.add(faMoneyCheckAlt)
 library.add(faMapMarkedAlt)
-library.add(faBookmark) 
+library.add(faBookmark)
 library.add(faChartBar)
 library.add(faPlayCircle)
 

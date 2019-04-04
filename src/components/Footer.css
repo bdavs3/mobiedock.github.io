@@ -1,9 +1,9 @@
-img {
-    height: 20px;
+.footer img {
+    height: 40px;
     filter: brightness(250%);
 }
 
-.center {
+.footer .center {
     text-align: center;
     margin-bottom: 5px;
 }

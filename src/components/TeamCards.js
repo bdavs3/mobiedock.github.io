@@ -26,7 +26,7 @@ class CardExample extends Component {
 
 	render() {
 		return (
-			<Container>
+			<Container className="cards">
 				<CardDeck className="lead wow fadeInUp" data-wow-delay="0.8s">
 					<Card>
 						<CardImg top width="100%" src={billy} alt="Billy Walker" />
