@@ -1,0 +1,9 @@
+img {
+    height: 20px;
+    filter: brightness(250%);
+}
+
+.center {
+    text-align: center;
+    margin-bottom: 5px;
+}

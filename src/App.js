@@ -7,6 +7,7 @@ import About from './components/About';
 import Solution from './components/Solution';
 import Team from './components/Team';
 import Features from './components/Features'
+import Footer from './components/Footer';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons';
@@ -33,6 +34,7 @@ class App extends Component {
           <Solution path="/" component={Solution} />
           <Features path="/" component={Features} />
           <Team path="/" component={Team} />
+          <Footer/>
         </div>
       </Router>
     );
