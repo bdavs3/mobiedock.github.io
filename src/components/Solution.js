@@ -95,20 +95,20 @@ export default class Solution extends Component {
       					</div>
       					<div className="service-list wow fadeInLeft" data-wow-delay="0.5s">
       						<div className="service-list-col1">
-      							<FontAwesomeIcon className="icon" icon="sitemap" />
+      							<FontAwesomeIcon className="icon" icon="bookmark" />
       						</div>
       						<div className="service-list-col2">
-      							<h3>Organize</h3>
-      							<p>Dock shared MDs for increased organization and safety.</p>
+      							<h3>Book a Station</h3>
+      							<p>Here is some text.</p>
       						</div>
       					</div>
       					<div className="service-list wow fadeInLeft" data-wow-delay="0.5s">
       						<div className="service-list-col1">
-      							<FontAwesomeIcon className="icon" icon="money-check-alt" />
+      							<FontAwesomeIcon className="icon" icon="chart-bar" />
       						</div>
       						<div className="service-list-col2">
-      							<h3>Monetize</h3>
-      							<p>Monetize charging and traffic to benefit all parties.</p>
+      							<h3>Track Your Rides</h3>
+      							<p>Here is some text.</p>
       						</div>
       					</div>
               </Col>

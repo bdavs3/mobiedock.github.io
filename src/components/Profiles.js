@@ -23,7 +23,7 @@ class CardExample extends Component {
   render() {
     return (
     <MDBRow>
-      <MDBRow className="text-white wow fadeInUp" data-wow-delay="0.8s" >
+      <MDBRow className="wow fadeInUp" data-wow-delay="0.8s" >
         <MDBCol>
           <MDBCard cascade>
             <MDBCardImage cascade className="img-fluid" src={billy}/>
@@ -53,7 +53,7 @@ class CardExample extends Component {
         </MDBCol>
       </MDBRow>
 
-      <MDBRow className="text-white wow fadeInUp" data-wow-delay="0.8s">
+      <MDBRow className="wow fadeInUp" data-wow-delay="0.8s">
       <MDBCol>
           <MDBCard cascade>
             <MDBCardImage cascade className="img-fluid" src={ahmad} />
@@ -82,7 +82,7 @@ class CardExample extends Component {
           </MDBCard>
         </MDBCol>
       </MDBRow>
-      <MDBRow>
+      <MDBRow className="wow fadeInUp" data-wow-delay="0.8s">
         <MDBCol>
           <MDBCard cascade>
             <MDBCardImage cascade className="img-fluid" src={emily}/>
@@ -121,7 +121,7 @@ class CardExample extends Component {
         </MDBCol>
       </MDBRow>
       </MDBRow>
-      
+
     )
   }
 }

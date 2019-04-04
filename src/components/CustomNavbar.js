@@ -62,7 +62,7 @@ export default class CustomNavbar extends Component {
                 offset={-70}
                 duration={500}
               >
-              Our Team
+              Team
               </Link>
           </Nav.Link>
 
