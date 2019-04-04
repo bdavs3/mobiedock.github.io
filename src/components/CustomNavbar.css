@@ -1,0 +1,4 @@
+.nav img {
+  max-height: 20px !important;
+  filter: brightness(250%);
+}

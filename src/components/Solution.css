@@ -1,6 +1,6 @@
 .service-list{
 	padding:0 0 0 0;
-	font-size:14px;
+	font-size:15px;
 	margin-bottom:40px;
 }
 .service-list-col1{
@@ -23,4 +23,8 @@
 
 img {
   max-height: 400px;
+}
+
+p {
+	font-size: 14px;
 }

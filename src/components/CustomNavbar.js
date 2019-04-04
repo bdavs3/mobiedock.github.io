@@ -8,8 +8,12 @@ export default class CustomNavbar extends Component {
   render() {
     return (
 
-      <Navbar default collapseOnSelect bg="dark" variant="dark" fixed="top">
-        <Navbar.Brand href="#home">MobieDock</Navbar.Brand>
+      <Navbar default collapseOnSelect bg="dark" variant="dark" fixed="top" className="nav">
+        <Navbar.Brand href="#home">
+          <img src={require("../images/mobiedock.png")}/>
+        </Navbar.Brand>
+
+
         <Nav className="ml-auto">
           <Nav.Link>
             <Link
