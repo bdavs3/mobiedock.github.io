@@ -43,3 +43,10 @@ MDBCardTitle {
     user-select: none;
     -webkit-tap-highlight-color: transparent;
 }
+
+button {
+    font-size: 30px;
+    padding: 0;
+    margin: 5px;
+    border: #fff;
+}

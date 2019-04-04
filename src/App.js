@@ -9,14 +9,16 @@ import Team from './components/Team';
 import Features from './components/Features'
 
 import { library } from '@fortawesome/fontawesome-svg-core'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faMoneyCheckAlt, faSolarPanel, faSitemap, faMapMarkedAlt, faBookmark, faChartBar, faPlayCircle} from '@fortawesome/free-solid-svg-icons'
+import { fab } from '@fortawesome/free-brands-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons'
+import { faMoneyCheckAlt, faSolarPanel, faSitemap, faMapMarkedAlt, faBookmark, faChartBar, faPlayCircle} from '@fortawesome/free-solid-svg-icons';
 
+library.add(fab, fas)
 library.add(faSolarPanel)
 library.add(faSitemap)
 library.add(faMoneyCheckAlt)
 library.add(faMapMarkedAlt)
-library.add(faBookmark)
+library.add(faBookmark) 
 library.add(faChartBar)
 library.add(faPlayCircle)
 
