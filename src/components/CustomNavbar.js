@@ -25,7 +25,7 @@ export default class CustomNavbar extends Component {
 
         <Nav className="ml-auto">
           <Nav.Link>
-            <Link
+            <Link className="link"
                 activeClass="active"
                 to="home"
                 spy={true}
@@ -37,7 +37,7 @@ export default class CustomNavbar extends Component {
             </Link>
           </Nav.Link>
           <Nav.Link href="#problem">
-            <Link
+            <Link className="link"
                 activeClass="active"
                 to="problem"
                 spy={true}
@@ -50,7 +50,7 @@ export default class CustomNavbar extends Component {
           </Nav.Link>
 
           <Nav.Link href="#solution">
-            <Link
+            <Link className="link"
                 activeClass="active"
                 to="solution"
                 spy={true}
@@ -63,7 +63,7 @@ export default class CustomNavbar extends Component {
           </Nav.Link>
 
           <Nav.Link href="#features">
-            <Link
+            <Link className="link"
                 activeClass="active"
                 to="features"
                 spy={true}
@@ -76,7 +76,7 @@ export default class CustomNavbar extends Component {
           </Nav.Link>
 
           <Nav.Link href="#team">
-            <Link
+            <Link className="link"
                 activeClass="active"
                 to="team"
                 spy={true}
