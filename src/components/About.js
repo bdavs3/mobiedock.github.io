@@ -44,7 +44,7 @@ export default class About extends Component {
         </section>
         */}
 
-        <section id="poblem" className="bg-black text-center">
+        <section id="problem" className="bg-black text-center">
           <Container className="py-5">
             <h1> What We're Solving </h1>
           </Container>

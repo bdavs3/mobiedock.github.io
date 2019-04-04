@@ -9,7 +9,7 @@ export default class Solution extends Component {
   render() {
     return (
       <div>
-        <section id="about" className="py-5">
+        <section id="solution" className="py-5">
           <div className=" container text-center my-5">
             <h1> Our Solution </h1>
             <h6 className="my-4">
