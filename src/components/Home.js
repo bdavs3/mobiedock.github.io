@@ -19,9 +19,10 @@ export default class Home extends Component {
 
         <div className="full-page-image" style={fullPageStyle}>
           <div className="overlay"></div>
-          <div className="center-page-caption text-center">
+          <div className="center-page-caption text-center text-white">
             <div className ="full-width">
-              <h1 className="main-heading text-white">MobieDock</h1>
+              <h1 className="main-heading">MobieDock</h1>
+              <p> Charge. Organize. Monetize.</p>
             </div>
           </div>
         </div>
