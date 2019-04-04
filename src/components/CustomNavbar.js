@@ -10,7 +10,16 @@ export default class CustomNavbar extends Component {
 
       <Navbar default collapseOnSelect bg="dark" variant="dark" fixed="top" className="nav">
         <Navbar.Brand href="#home">
+          <Link
+            activeClass="active"
+            to="home"
+            spy={true}
+            smooth={true}
+            offset={-70}
+            duration={500}
+          >
           <img src={require("../images/mobiedock.png")}/>
+          </Link>
         </Navbar.Brand>
 
 
@@ -50,6 +59,19 @@ export default class CustomNavbar extends Component {
                 duration={500}
               >
               Solution
+              </Link>
+          </Nav.Link>
+
+          <Nav.Link href="#features">
+            <Link
+                activeClass="active"
+                to="features"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+              Features
               </Link>
           </Nav.Link>
 

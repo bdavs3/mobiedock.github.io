@@ -6,8 +6,9 @@ p {
   font-size: 25px;
 }
 
-.full-div-image {
-  height: 250px;
+
+#problem .full-div-image {
   -webkit-filter: grayscale(100%);
   filter: gray;
+  height: 250px;
 }

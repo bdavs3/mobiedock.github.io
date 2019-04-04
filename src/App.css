@@ -57,6 +57,14 @@ p{
   color: white;
 }
 
+.bg-gray {
+  background-color: #C8C9C7;
+}
+
+.bg-blue {
+  background-color: #0076A5;
+}
+
 .center-page-caption{
     position: absolute;
     top: 0;
