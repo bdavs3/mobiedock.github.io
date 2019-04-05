@@ -179,9 +179,7 @@ class CardExample extends Component {
 							<CardTitle>Ben Davis</CardTitle>
 							<CardSubtitle>Computer Science</CardSubtitle>
 							<CardText>
-								This is a wider card with supporting text below as a natural lead-in to additional
-								content. This card has even longer content than the first to show that equal height
-								action.
+								Ben is involved with app development and software system integration.  Aside from computer science, Ben takes interest in electronic music, running, and physics.  Mobiedock is an intersection of many of the fields within computer science that he is particularly excited about.
 							</CardText>
 						</CardBody>
 						<CardFooter>
