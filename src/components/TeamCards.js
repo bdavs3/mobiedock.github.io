@@ -27,13 +27,13 @@ class CardExample extends Component {
 	render() {
 		return (
 			<Container className="cards">
-				<CardDeck className="lead wow fadeInUp" data-wow-delay="0.8s">
+				<CardDeck className="lead wow fadeInUp" data-wow-delay="0.5s">
 					<Card>
-						<CardImg top width="100%" src={billy} alt="Billy Walker" />
+						<CardImg className="photo" top width="100%" src={billy} alt="Billy Walker" />
 						<CardBody>
-							<CardTitle>Billy Walker</CardTitle>
-							<CardSubtitle>Card subtitle</CardSubtitle>
-							<CardText>
+							<CardTitle className="cardTitle">Billy Walker</CardTitle>
+							<CardSubtitle className="subtitle">Card subtitle</CardSubtitle>
+							<CardText className="text">
 								This is a wider card with supporting text below as a natural lead-in to additional
 								content. This content is a little bit longer.
 							</CardText>
@@ -45,11 +45,11 @@ class CardExample extends Component {
 						</CardFooter>
 					</Card>
 					<Card>
-						<CardImg top width="100%" src={masaki} alt="Masaki Takamatsu" />
+						<CardImg className="photo" top width="100%" src={masaki} alt="Masaki Takamatsu" />
 						<CardBody>
-							<CardTitle>Masaki Takamatsu</CardTitle>
-							<CardSubtitle>Card subtitle</CardSubtitle>
-							<CardText>
+							<CardTitle className="cardTitle">Masaki Takamatsu</CardTitle>
+							<CardSubtitle className="subtitle">Card subtitle</CardSubtitle>
+							<CardText className="text">
 								This card has supporting text below as a natural lead-in to additional content.
 							</CardText>
 						</CardBody>
@@ -60,11 +60,60 @@ class CardExample extends Component {
 						</CardFooter>
 					</Card>
 					<Card>
-						<CardImg top width="100%" src={charity} alt="Charity Waddy" />
+						<CardImg className="photo" top width="100%" src={charity} alt="Charity Waddy" />
 						<CardBody>
-							<CardTitle>Charity Waddy</CardTitle>
-							<CardSubtitle>Card subtitle</CardSubtitle>
-							<CardText>
+							<CardTitle className="cardTitle">Charity Waddy</CardTitle>
+							<CardSubtitle className="subtitle">COO/Founder</CardSubtitle>
+							<CardText className="text">
+								Mechanical Engineering student with experience in sales, organization, and development.
+							</CardText>
+						</CardBody>
+						<CardFooter>
+							<a href="http://linkedin.com/in/charity-waddy-b48668112">
+								<FontAwesomeIcon ClassName="icon" icon={[ 'fab', 'linkedin' ]} />
+							</a>
+						</CardFooter>
+					</Card>
+				</CardDeck>
+
+				<CardDeck className="lead wow fadeInUp" data-wow-delay="0.5s">
+					<Card>
+						<CardImg className="photo" top width="100%" src={andre} alt="Andre De Leon" />
+						<CardBody>
+							<CardTitle className="cardTitle">Andre De Leon</CardTitle>
+							<CardSubtitle className="subtitle">Card subtitle</CardSubtitle>
+							<CardText className="text">
+								This is a wider card with supporting text below as a natural lead-in to additional
+								content. This content is a little bit longer.
+							</CardText>
+						</CardBody>
+						<CardFooter>
+							<a href="http://google.com">
+								<FontAwesomeIcon ClassName="icon" icon={[ 'fab', 'linkedin' ]} />
+							</a>
+						</CardFooter>
+					</Card>
+					<Card>
+						<CardImg className="photo" top width="100%" src={ahmad} alt="Ahmad Kalifeh" />
+						<CardBody>
+							<CardTitle className="cardTitle">Ahmad Kalifeh</CardTitle>
+							<CardSubtitle className="subtitle">Card subtitle</CardSubtitle>
+							<CardText className="text">
+								This card has supporting text below as a natural lead-in to additional content.
+							</CardText>
+						</CardBody>
+						<CardFooter>
+							<a href="http://google.com">
+								<FontAwesomeIcon ClassName="icon" icon={[ 'fab', 'linkedin' ]} />
+							</a>
+						</CardFooter>
+					</Card>
+					<Card>
+						<CardImg className="photo" top width="100%" src={matt} alt="Matthew Tejada" />
+						<CardBody>
+							<CardTitle className="cardTitle">Matthew Tejada</CardTitle>
+							<CardSubtitle className="subtitle">Card subtitle</CardSubtitle>
+							<CardText className="text">
 								This is a wider card with supporting text below as a natural lead-in to additional
 								content. This card has even longer content than the first to show that equal height
 								action.
@@ -78,66 +127,14 @@ class CardExample extends Component {
 					</Card>
 				</CardDeck>
 
-				<CardDeck className="lead wow fadeInUp" data-wow-delay="0.8s">
+				<CardDeck className="lead wow fadeInUp" data-wow-delay="0.5s">
 					<Card>
-						<CardImg top width="100%" src={andre} alt="Andre De Leon" />
+						<CardImg className="photo" top width="100%" src={emily} alt="Emily Shoji" />
 						<CardBody>
-							<CardTitle>Andre De Leon</CardTitle>
-							<CardSubtitle>Card subtitle</CardSubtitle>
-							<CardText>
-								This is a wider card with supporting text below as a natural lead-in to additional
-								content. This content is a little bit longer.
-							</CardText>
-						</CardBody>
-						<CardFooter>
-							<a href="http://google.com">
-								<FontAwesomeIcon ClassName="icon" icon={[ 'fab', 'linkedin' ]} />
-							</a>
-						</CardFooter>
-					</Card>
-					<Card>
-						<CardImg top width="100%" src={ahmad} alt="Ahmad Kalifeh" />
-						<CardBody>
-							<CardTitle>Ahmad Kalifeh</CardTitle>
-							<CardSubtitle>Card subtitle</CardSubtitle>
-							<CardText>
-								This card has supporting text below as a natural lead-in to additional content.
-							</CardText>
-						</CardBody>
-						<CardFooter>
-							<a href="http://google.com">
-								<FontAwesomeIcon ClassName="icon" icon={[ 'fab', 'linkedin' ]} />
-							</a>
-						</CardFooter>
-					</Card>
-					<Card>
-						<CardImg top width="100%" src={matt} alt="Matthew Tejada" />
-						<CardBody>
-							<CardTitle>Matthew Tejada</CardTitle>
-							<CardSubtitle>Card subtitle</CardSubtitle>
-							<CardText>
-								This is a wider card with supporting text below as a natural lead-in to additional
-								content. This card has even longer content than the first to show that equal height
-								action.
-							</CardText>
-						</CardBody>
-						<CardFooter>
-							<a href="http://google.com">
-								<FontAwesomeIcon ClassName="icon" icon={[ 'fab', 'linkedin' ]} />
-							</a>
-						</CardFooter>
-					</Card>
-				</CardDeck>
-
-				<CardDeck className="lead wow fadeInUp" data-wow-delay="0.8s">
-					<Card>
-						<CardImg top width="100%" src={emily} alt="Emily Shoji" />
-						<CardBody>
-							<CardTitle>Emily Shoji</CardTitle>
-							<CardSubtitle>Computer Science</CardSubtitle>
-							<CardText>
-								This is a wider card with supporting text below as a natural lead-in to additional
-								content. This content is a little bit longer.
+							<CardTitle className="cardTitle">Emily Shoji</CardTitle>
+							<CardSubtitle className="subtitle">Software Developer</CardSubtitle>
+							<CardText className="text">
+								A Computer Science Major & Pure Mathematics minor from Seattle, WA who enjoys front-end development.
 							</CardText>
 						</CardBody>
 						<CardFooter>
@@ -153,11 +150,11 @@ class CardExample extends Component {
 						</CardFooter>
 					</Card>
 					<Card>
-						<CardImg top width="100%" src={nico} alt="Danico Pidlaoan" />
+						<CardImg className="photo" top width="100%" src={nico} alt="Danico Pidlaoan" />
 						<CardBody>
-							<CardTitle>Danico Pidlaoan</CardTitle>
-							<CardSubtitle>Computer Science</CardSubtitle>
-							<CardText>
+							<CardTitle className="cardTitle">Danico Pidlaoan</CardTitle>
+							<CardSubtitle className="subtitle">Software Developer</CardSubtitle>
+							<CardText className="text">
 								This card has supporting text below as a natural lead-in to additional content.
 							</CardText>
 						</CardBody>
@@ -174,11 +171,11 @@ class CardExample extends Component {
 						</CardFooter>
 					</Card>
 					<Card>
-						<CardImg top width="100%" src={ben} alt="Ben Davis" />
+						<CardImg className="photo" top width="100%" src={ben} alt="Ben Davis" />
 						<CardBody>
-							<CardTitle>Ben Davis</CardTitle>
-							<CardSubtitle>Computer Science</CardSubtitle>
-							<CardText>
+							<CardTitle className="cardTitle">Ben Davis</CardTitle>
+							<CardSubtitle className="subtitle">Software Developer</CardSubtitle>
+							<CardText className="text">
 								Ben is involved with app development and software system integration.  Aside from computer science, Ben takes interest in electronic music, running, and physics.  Mobiedock is an intersection of many of the fields within computer science that he is particularly excited about.
 							</CardText>
 						</CardBody>
@@ -194,12 +191,14 @@ class CardExample extends Component {
 							</a>
 						</CardFooter>
 					</Card>
+				</CardDeck>
+				<CardDeck className=" alex lead wow fadeInUp" data-wow-delay="0.5s" >
 					<Card>
-						<CardImg top width="100%" src={alex} alt="Alex Lee" />
+						<CardImg className="photo" top width="100%" src={alex} alt="Alex Lee" />
 						<CardBody>
-							<CardTitle>Alex Lee</CardTitle>
-							<CardSubtitle>Card subtitle</CardSubtitle>
-							<CardText>
+							<CardTitle className="cardTitle">Alex Lee</CardTitle>
+							<CardSubtitle className="subtitle">Card subtitle</CardSubtitle>
+							<CardText className="text">
 								This is a wider card with supporting text below as a natural lead-in to additional
 								content. This card has even longer content than the first to show that equal height
 								action.
