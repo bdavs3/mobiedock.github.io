@@ -1,10 +1,5 @@
 .footer img {
     height: 20px;
-    filter: brightness(250%);
+    filter: brightness(0) invert(1);
     margin-left: 45%;
-}
-
-.powered {
-    float: right;
-    margin: 5px 5px 0 0;
 }
