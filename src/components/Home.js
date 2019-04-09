@@ -30,7 +30,7 @@ export default class Home extends Component {
           <div className="center-page-caption text-center text-white">
             <div className ="full-width">
               <h1 className="main-heading wow bounceInRight" data-wow-delay="0.4s">MobieDock</h1>
-              <h3 className="text-white wow fadeInUp" data-wow-delay="0.8s"> Charge. Organize. Monetize.</h3>
+              <h3 className="text-white wow fadeInUp" data-wow-delay="0.8s">The world's first 100% renewable shared-device charging solution.</h3>
 
               <Link className="link"
                   activeClass="active"
@@ -40,15 +40,11 @@ export default class Home extends Component {
                   offset={-70}
                   duration={500}
                 >
-
                   <a href="#problem" class="btn btn-primary btn-xl rounded-pill mt-4 wow fadeInUp" data-wow-delay="0.8s"> Learn More </a>
               </Link>
-
-
             </div>
           </div>
         </div>
-
       </div>
 
     )
