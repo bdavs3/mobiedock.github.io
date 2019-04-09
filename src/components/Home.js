@@ -30,7 +30,7 @@ export default class Home extends Component {
           <div className="center-page-caption text-center text-white">
             <div className ="full-width">
               <h1 className="main-heading wow bounceInRight" data-wow-delay="0.4s">MobieDock</h1>
-              <h3 className="text-white wow fadeInUp" data-wow-delay="0.8s">The world's first 100% renewable shared-device charging solution.</h3>
+              <h3 className="small-heading text-white wow fadeInUp" data-wow-delay="0.8s">The world's first 100% renewable shared-device charging solution.</h3>
 
               <Link className="link"
                   activeClass="active"
