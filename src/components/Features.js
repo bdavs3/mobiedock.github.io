@@ -6,12 +6,12 @@ import ReactPlayer from 'react-player'; // for next iteration of site (with vide
 import WOW from 'wowjs';
 import './Features.css';
 
-const img = require('../images/dock-render-1.jpg');
-const img2 = require('../images/dock-render-2.jpg');
+const img = require('../images/dock-render-1.jpeg');
+const img2 = require('../images/dock-render-2.jpeg');
 const img3 = require('../images/dock-render-3.jpg');
 
-const render1 = require('../images/dock1.jpg');
-const render2 = require('../images/dock2.jpg');
+const render1 = require('../images/dock1.jpeg');
+const render2 = require('../images/dock2.jpeg');
 
 const demonstrationUrl = 'https://www.youtube.com/watch?v=ZUG9qYTJMsI';
 const gifVideo = require('../images/dock-render-3.jpg');
