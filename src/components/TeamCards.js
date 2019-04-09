@@ -29,14 +29,14 @@ class CardExample extends Component {
 	render() {
 		return (
 			<Container className="cards">
-				<CardDeck className="deck lead wow fadeInUp" data-wow-delay={CARD_DELAY}>
-					<Card>
+				<CardDeck className="deck lead">
+					<Card className="wow fadeInUp" data-wow-delay={CARD_DELAY}>
 						<CardImg className="photo" top width="100%" src={billy} alt="Billy Walker" />
 						<CardBody>
 							<CardTitle className="cardTitle">Billy Walker</CardTitle>
 							<CardSubtitle className="subtitle">CEO / Co-founder</CardSubtitle>
 							<CardText className="text">
-							Billy combines his innovative engineering background with a customer focused business sense to develop high value ventures. Billy's sales experience– both B2B and ecommerce– has summed to six digits in sales as a college student. An extensive tech, healthcare, and education network in Los Angeles, Silicon Valley, and Minneapolis gives Billy and MobieDock the avenues for success.
+								Billy combines his innovative engineering background with a customer focused business sense to develop high value ventures. Billy's sales experience– both B2B and ecommerce– has summed to six digits in sales as a college student. An extensive tech, healthcare, and education network in Los Angeles, Silicon Valley, and Minneapolis gives Billy and MobieDock the avenues for success.
 							</CardText>
 						</CardBody>
 						<CardFooter>
@@ -45,13 +45,13 @@ class CardExample extends Component {
 							</a>
 						</CardFooter>
 					</Card>
-					<Card>
+					<Card className="wow fadeInUp" data-wow-delay={CARD_DELAY}>
 						<CardImg className="photo" top width="100%" src={masaki} alt="Masaki Takamatsu" />
 						<CardBody>
 							<CardTitle className="cardTitle">Masaki Takamatsu</CardTitle>
 							<CardSubtitle className="subtitle">CTO / Co-founder</CardSubtitle>
 							<CardText className="text">
-								This card has supporting text below as a natural lead-in to additional content.
+								Masaki is a Results-focused thought leader with expertise spanning sales management, professional networking, international manufacturing, e-commerce, proposal writing, presentation, negotiation, language translation, cross-functional team leadership, complex problem-solving, client relationship management, and project management.
 							</CardText>
 						</CardBody>
 						<CardFooter>
@@ -62,14 +62,14 @@ class CardExample extends Component {
 					</Card>
 				</CardDeck>
 
-				<CardDeck className="lead wow fadeInUp" data-wow-delay={CARD_DELAY}>
-					<Card>
+				<CardDeck className="lead">
+					<Card className="wow fadeInUp" data-wow-delay={CARD_DELAY}>
 						<CardImg className="photo" top width="100%" src={charity} alt="Charity Waddy" />
 						<CardBody>
 							<CardTitle className="cardTitle">Charity Waddy</CardTitle>
 							<CardSubtitle className="subtitle">COO/Founder</CardSubtitle>
 							<CardText className="text">
-								Mechanical Engineering student with experience in sales, organization, and development.
+								Mechanical Engineer with a strong motivation to use my experience towards building a career in business operations and organization. Charity also has experience in sales, organization, and development.
 							</CardText>
 						</CardBody>
 						<CardFooter>
@@ -78,7 +78,7 @@ class CardExample extends Component {
 							</a>
 						</CardFooter>
 					</Card>
-					<Card>
+					<Card className="wow fadeInUp" data-wow-delay={CARD_DELAY}>
 						<CardImg className="photo" top width="100%" src={ben} alt="Ben Davis" />
 						<CardBody>
 							<CardTitle className="cardTitle">Ben Davis</CardTitle>
@@ -96,15 +96,13 @@ class CardExample extends Component {
 							</a>
 						</CardFooter>
 					</Card>
-					<Card>
+					<Card className="wow fadeInUp" data-wow-delay={CARD_DELAY}>
 						<CardImg className="photo" top width="100%" src={matt} alt="Matthew Tejada" />
 						<CardBody>
 							<CardTitle className="cardTitle">Matthew Tejada</CardTitle>
 							<CardSubtitle className="subtitle">CFO</CardSubtitle>
 							<CardText className="text">
-								This is a wider card with supporting text below as a natural lead-in to additional
-								content. This card has even longer content than the first to show that equal height
-								action.
+								Matt is a entrepreneur with a desire to solve problems and scale businesses. Starting his first venture at sixteen helped form a serious passion for entrepreneurship at a young age. Matthew is consistently working on multiple projects where he specializes in building teams, forming partnerships, and business development. 
 							</CardText>
 						</CardBody>
 						<CardFooter>
@@ -115,14 +113,14 @@ class CardExample extends Component {
 					</Card>
 				</CardDeck>
 					
-				<CardDeck className="lead wow fadeInUp" data-wow-delay={CARD_DELAY}>
-					<Card>
+				<CardDeck className="lead">
+					<Card className="wow fadeInUp" data-wow-delay={CARD_DELAY}>
 						<CardImg className="photo" top width="100%" src={ahmad} alt="Ahmad Kalifeh" />
 						<CardBody>
 							<CardTitle className="cardTitle">Ahmad Kalifeh</CardTitle>
 							<CardSubtitle className="subtitle">Mechanical Engineer</CardSubtitle>
 							<CardText className="text">
-								Ahmad is a Mechanical Engieer with experience in automation, Design of Experiments methodology application, and design for manufacturing from my work at Mattel, cost-cutting and efficiency improving methods from my work with Avcorp and Mattel, and research skills and rapid prototyping from my work at Emergent Energy.							</CardText>
+								Ahmad is a Mechanical Engieer with experience in automation, Design of Experiments methodology application, and design for manufacturing from work at Mattel, cost-cutting and efficiency improving methods from work with Avcorp & Mattel, research skills and rapid prototyping from work at Emergent Energy.							</CardText>
 						</CardBody>
 						<CardFooter>
 							<a href="https://www.linkedin.com/in/ben-davis-a34a55149/">
@@ -136,12 +134,12 @@ class CardExample extends Component {
 							</a>
 						</CardFooter>
 					</Card>
-					<Card>
+					<Card className="wow fadeInUp" data-wow-delay={CARD_DELAY}>
 						<CardImg className="photo" top width="100%" src={alex} alt="Alex Lee" />
 						<CardBody>
 							<CardTitle className="cardTitle">Alex Lee</CardTitle>
 							<CardSubtitle className="subtitle">Electrical Engineer</CardSubtitle>
-							<CardText>
+							<CardText className="text">
 								Alex is both a talented electrical engineer and athlete. At Mobiedock, he is working on electrical hardware components for the stations.  He is also on a team at Loyola Marymount that is implementing an innovative space technology within the Earth-Moon-Earth communication project.  When he's not tinkering with circuit boards and modeling software, Alex competes at a national level in kayaking with Team USA and is training for the 2020 Olympics.  
 							</CardText>
 						</CardBody>
@@ -151,12 +149,12 @@ class CardExample extends Component {
 							</a>
 						</CardFooter>
 					</Card>
-					<Card>
+					<Card className="wow fadeInUp" data-wow-delay={CARD_DELAY}>
 						<CardImg className="photo" top width="100%" src={andre} alt="Andre De Leon" />
 						<CardBody>
 							<CardTitle className="cardTitle">Andre De Leon</CardTitle>
 							<CardSubtitle className="subtitle">Mechanical Engineer</CardSubtitle>
-							<CardText>
+							<CardText className="text">
 								Mechanical Engineering Major with proven success collaborating in a team environment, leading design improvement initiatives, and establishing project management milestones. Expertise in CAD drafting, model analysis, and 3D prototyping.
 							</CardText>
 						</CardBody>
@@ -168,14 +166,14 @@ class CardExample extends Component {
 					</Card>
 				</CardDeck>
 				
-				<CardDeck className="deck2 lead wow fadeInUp mt-2" data-wow-delay={CARD_DELAY}>
-					<Card>
+				<CardDeck className="deck2 lead">
+					<Card className="wow fadeInUp" data-wow-delay={CARD_DELAY}>
 						<CardImg className="photo" top width="100%" src={emily} alt="Emily Shoji" />
 						<CardBody>
 							<CardTitle className="cardTitle">Emily Shoji</CardTitle>
 							<CardSubtitle className="subtitle">Frontend Developer</CardSubtitle>
-							<CardText>
-								A Software Developer originally from Seattle, WA, Emily enjoys, math, teaching, and being outdoors.
+							<CardText className="text">
+								A Software Developer originally from Seattle, WA,  Emily enjoys math, teaching, and being outdoors.
 							</CardText>
 						</CardBody>
 						<CardFooter>
@@ -190,12 +188,12 @@ class CardExample extends Component {
 							</a>
 						</CardFooter>
 					</Card>
-					<Card>
+					<Card className="wow fadeInUp" data-wow-delay={CARD_DELAY}>
 						<CardImg className="photo" top width="100%" src={nico} alt="Danico Pidlaoan" />
 						<CardBody>
 							<CardTitle className="cardTitle">Danico Pidlaoan</CardTitle>
 							<CardSubtitle className="subtitle">Project Manager / Frontend Developer</CardSubtitle>
-							<CardText>
+							<CardText className="text">
 								An asipring Software Developer and Project Manager, Nico is driven by a desire to create products and solutions with others. 
 							</CardText>
 						</CardBody>

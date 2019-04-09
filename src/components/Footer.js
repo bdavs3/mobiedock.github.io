@@ -10,9 +10,8 @@ import './Footer.css'
 const FooterPage = () => {
   return (
     <div className="footer bg-black py-3">
-      <Container>
-        <a href="#home"> <img src={logo} alt="logo"/></a> &copy; {new Date().getFullYear()}
-      </Container>
+        <a href="#home"> <img src={logo} alt="logo"/></a> 
+        <p className="powered">Powered by:</p>
     </div>
   );
 }
