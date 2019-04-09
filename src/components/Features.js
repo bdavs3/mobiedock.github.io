@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
 import { Row, Col, Image, Button, Container, Carousel } from 'react-bootstrap';
-import './Features.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import ReactPlayer from 'react-player';
+import ReactPlayer from 'react-player'; // for next iteration of site (with video)
+import WOW from 'wowjs';
+import './Features.css';
 
 const img = require('../images/dock-render-1.jpg');
 const img2 = require('../images/dock-render-2.jpg');
@@ -50,14 +51,12 @@ const fullRenderSlider2 = {
   backgroundSize: 'cover',
 }
 
-const fullRenderSlider3 = {
-  backgroundImage: `url(${render3})`,
-  backgroundPosition: 'center',
-  backgroundRepeat: 'no-repeat',
-  backgroundSize: 'cover',
-}
-
 export default class Features extends Component {
+  componentDidMount() {
+		const wow = new WOW.WOW();
+		wow.init();
+  }
+
   render() {
     return (
       <div>
@@ -70,46 +69,23 @@ export default class Features extends Component {
                       <Carousel.Item className="full-div-image" style={fullImageSlider}>
                         <div className="overlay"></div>
                         <Carousel.Caption>
-                          <h3>First slide label</h3>
-                        </Carousel.Caption>
-                      </Carousel.Item>
-                      <Carousel.Item className="full-div-image" style={fullImageSlider2}>
-                        <div className="overlay"></div>
-                        <Carousel.Caption>
-                          <h3>Second slide label</h3>
+                          <h3>Unidirectional Model - Front</h3>
                         </Carousel.Caption>
                       </Carousel.Item>
                       <Carousel.Item className="full-div-image" style={fullImageSlider3}>
                         <div className="overlay"></div>
                         <Carousel.Caption>
-                          <h3>Third slide label</h3>
+                          <h3>Unidirectional Model - Back</h3>
                         </Carousel.Caption>
                       </Carousel.Item>
-                    </Carousel>;
+                      <Carousel.Item className="full-div-image" style={fullImageSlider2}>
+                        <div className="overlay"></div>
+                        <Carousel.Caption>
+                          <h3>Omnidirectional Model</h3>
+                        </Carousel.Caption>
+                      </Carousel.Item>
+                    </Carousel>
                   </div>
-              </Col>
-              <Col bg={6} md={6} sm={12} className="p-0">
-                <div className="full-div-image bg-black">
-                  <div className="center-page-caption text-center">
-                    <div className ="full-width">
-                      <h1>Features</h1>
-                    </div>
-                  </div>
-                </div>
-              </Col>
-            </Row>
-
-
-            <Row className="row-eq-height">
-              <Col bg={6} md={6} sm={12} className="p-0">
-                <div className={"player-wrapper"}>
-                  <ReactPlayer
-                    className='react-player'
-                    url={demonstrationUrl}
-                    width='100%'
-                    height='100%'
-                  />
-                </div>
               </Col>
               <Col bg={6} md={6} sm={12} className="p-0">
                   <div className="full-div-image">
@@ -117,25 +93,35 @@ export default class Features extends Component {
                       <Carousel.Item className="full-div-image" style={fullRenderSlider}>
                         <div className="overlay"></div>
                         <Carousel.Caption>
-                          <h3>First slide label</h3>
+                          <h3>On Campus</h3>
                         </Carousel.Caption>
                       </Carousel.Item>
                       <Carousel.Item className="full-div-image" style={fullRenderSlider2}>
                         <div className="overlay"></div>
                         <Carousel.Caption>
-                          <h3>Second slide label</h3>
+                          <h3>In the City</h3>
                         </Carousel.Caption>
                       </Carousel.Item>
                     </Carousel>
-                    <Carousel>
-                      <Carousel.Item className="full-div-image" style={fullRenderSlider3}>
-                          <div className="overlay"></div>
-                          <Carousel.Caption>
-                            <h3>Third slide label</h3>
-                          </Carousel.Caption>
-                        </Carousel.Item>
-                    </Carousel>;
                   </div>
+              </Col>
+            </Row>
+          </Container>
+        </section>
+        <section id="compatibility" className="bg-blue text-center">
+          <Container className="py-4">
+            <h1 > Compatibility </h1>
+            <h4 className ="py-1"> Our charging stations are compatible with any electric scooter or bike.</h4>
+          </Container>
+
+          <Container>
+            <Row className="py-2">
+              <Col>
+                <Image className="scooter-logo" src={require("../images/bird-logo.png")}/>
+                <Image className="scooter-logo" src={require("../images/lime-logo.png")}/>
+                <Image className="scooter-logo" src={require("../images/jump-logo.png")}/>
+                <Image className="scooter-logo" src={require("../images/spin-logo.png")}/>
+                <Image className="scooter-logo" src={require("../images/and-more.png")}/>
               </Col>
             </Row>
           </Container>

@@ -1,6 +1,5 @@
 #features .full-div-image {
-  height: 375px;
-  vertical-align: bottom;
+  height: 475px;
 }
 
 .icon-button {
@@ -14,13 +13,14 @@
   border-color: #bd0760 !important;*/
   color: #00bcd4 !important;
 }
-.player-wrapper {
-  position: relative;
-  padding-top: 52.125%; /* Aspect ratio adjustment: 100 / (9 / 16) */
+
+.scooter-logo {
+  max-height: 110px;
+  filter: brightness(0) invert(1);
+  padding-left: 30px;
+  padding-right: 30px;
 }
- 
-.react-player {
-  position: absolute;
-  top: 0;
-  left: 0;
+
+.compatibility-logos {
+  margin-bottom: 50px;
 }
