@@ -57,10 +57,12 @@
     border-radius: .9rem .9rem 0 0;
 }
 
-.deck {
-    margin: 0 10% 0 10%;
-}
-
-.deck2 {
-    margin: 0 15% 0 15%;
+@media only screen and (min-width: 824px) {
+    .deck {
+        margin: 0 10% 0 10%;
+    }
+    
+    .deck2 {
+        margin: 0 15% 0 15%;
+    }
 }
