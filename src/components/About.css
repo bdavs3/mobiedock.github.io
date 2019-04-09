@@ -12,3 +12,9 @@ p {
   filter: gray;
   height: 250px;
 }
+
+#problem .full-div-image:hover {
+  -webkit-filter: grayscale(0%);
+  filter: gray;
+  height: 250px;
+}
