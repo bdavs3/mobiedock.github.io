@@ -1,5 +1,6 @@
 #features .full-div-image {
-  height: 400px;
+  height: 375px;
+  vertical-align: bottom;
 }
 
 .icon-button {
@@ -12,4 +13,14 @@
   /*background-color: #bd0760 !important;
   border-color: #bd0760 !important;*/
   color: #00bcd4 !important;
+}
+.player-wrapper {
+  position: relative;
+  padding-top: 52.125%; /* Aspect ratio adjustment: 100 / (9 / 16) */
+}
+ 
+.react-player {
+  position: absolute;
+  top: 0;
+  left: 0;
 }

@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { Row, Col, Image, Button, Container, Carousel } from 'react-bootstrap';
 import './Features.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import ReactPlayer from 'react-player';
 
 const img = require('../images/dock-render-1.jpg');
 const img2 = require('../images/dock-render-2.jpg');
@@ -10,8 +11,8 @@ const img3 = require('../images/dock-render-3.jpg');
 
 const render1 = require('../images/dock1.jpg');
 const render2 = require('../images/dock2.jpg');
-const render3 = require('../images/dock-render-3.jpg');
 
+const demonstrationUrl = 'https://www.youtube.com/watch?v=ZUG9qYTJMsI';
 const gifVideo = require('../images/dock-render-3.jpg');
 
 const fullImageSlider = {
@@ -56,22 +57,11 @@ const fullRenderSlider3 = {
   backgroundSize: 'cover',
 }
 
-const gifBackground = {
-  backgroundImage: `url("https://thumbs.gfycat.com/GiddyWildGalapagosalbatross-max-1mb.gif")`,
-  backgroundPosition: 'center',
-  backgroundRepeat: 'no-repeat',
-  backgroundSize: 'cover',
-}
-
-
-
-
 export default class Features extends Component {
   render() {
     return (
       <div>
         <section id="features" className="bg-black text-center">
-
           <Container fluid>
             <Row className="row-eq-height">
               <Col bg={6} md={6} sm={12} className="p-0">
@@ -112,14 +102,13 @@ export default class Features extends Component {
 
             <Row className="row-eq-height">
               <Col bg={6} md={6} sm={12} className="p-0">
-                <div className="full-div-image bg-gray" style={gifBackground}>
-                  <div className="overlay"></div>
-                  <div className="center-page-caption text-center">
-                    <div className ="full-width">
-                      <FontAwesomeIcon className="icon-button" icon="play-circle" />
-                      <h1>Watch In Action</h1>
-                    </div>
-                  </div>
+                <div className={"player-wrapper"}>
+                  <ReactPlayer
+                    className='react-player'
+                    url={demonstrationUrl}
+                    width='100%'
+                    height='100%'
+                  />
                 </div>
               </Col>
               <Col bg={6} md={6} sm={12} className="p-0">
@@ -137,24 +126,21 @@ export default class Features extends Component {
                           <h3>Second slide label</h3>
                         </Carousel.Caption>
                       </Carousel.Item>
+                    </Carousel>
+                    <Carousel>
                       <Carousel.Item className="full-div-image" style={fullRenderSlider3}>
-                        <div className="overlay"></div>
-                        <Carousel.Caption>
-                          <h3>Third slide label</h3>
-                        </Carousel.Caption>
-                      </Carousel.Item>
+                          <div className="overlay"></div>
+                          <Carousel.Caption>
+                            <h3>Third slide label</h3>
+                          </Carousel.Caption>
+                        </Carousel.Item>
                     </Carousel>;
                   </div>
               </Col>
-
             </Row>
           </Container>
-
-
         </section>
       </div>
-
-
     )
   }
 }
