@@ -54,7 +54,13 @@
 }
 
 .photo {
-    border-radius: .9rem;
-    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    border-radius: .9rem .9rem 0 0;
+}
 
+.deck {
+    margin: 0 10% 0 10%;
+}
+
+.deck2 {
+    margin: 0 15% 0 15%;
 }
