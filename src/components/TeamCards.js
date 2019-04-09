@@ -120,10 +120,9 @@ class CardExample extends Component {
 						<CardImg className="photo" top width="100%" src={ahmad} alt="Ahmad Kalifeh" />
 						<CardBody>
 							<CardTitle className="cardTitle">Ahmad Kalifeh</CardTitle>
-							<CardSubtitle className="subtitle">Card subtitle</CardSubtitle>
+							<CardSubtitle className="subtitle">Mechanical Engineer</CardSubtitle>
 							<CardText className="text">
-								This card has supporting text below as a natural lead-in to additional content.
-							</CardText>
+								Ahmad is a Mechanical Engieer with experience in automation, Design of Experiments methodology application, and design for manufacturing from my work at Mattel, cost-cutting and efficiency improving methods from my work with Avcorp and Mattel, and research skills and rapid prototyping from my work at Emergent Energy.							</CardText>
 						</CardBody>
 						<CardFooter>
 							<a href="https://www.linkedin.com/in/ben-davis-a34a55149/">
@@ -141,7 +140,7 @@ class CardExample extends Component {
 						<CardImg className="photo" top width="100%" src={alex} alt="Alex Lee" />
 						<CardBody>
 							<CardTitle className="cardTitle">Alex Lee</CardTitle>
-							<CardSubtitle className="subtitle">Electrical Engineering</CardSubtitle>
+							<CardSubtitle className="subtitle">Electrical Engineer</CardSubtitle>
 							<CardText>
 								Alex is both a talented electrical engineer and athlete. At Mobiedock, he is working on electrical hardware components for the stations.  He is also on a team at Loyola Marymount that is implementing an innovative space technology within the Earth-Moon-Earth communication project.  When he's not tinkering with circuit boards and modeling software, Alex competes at a national level in kayaking with Team USA and is training for the 2020 Olympics.  
 							</CardText>
@@ -156,10 +155,9 @@ class CardExample extends Component {
 						<CardImg className="photo" top width="100%" src={andre} alt="Andre De Leon" />
 						<CardBody>
 							<CardTitle className="cardTitle">Andre De Leon</CardTitle>
-							<CardSubtitle className="subtitle">Mechanical Engineering</CardSubtitle>
+							<CardSubtitle className="subtitle">Mechanical Engineer</CardSubtitle>
 							<CardText>
-								This is a wider card with supporting text below as a natural lead-in to additional
-								content. This content is a little bit longer.
+								Mechanical Engineering Major with proven success collaborating in a team environment, leading design improvement initiatives, and establishing project management milestones. Expertise in CAD drafting, model analysis, and 3D prototyping.
 							</CardText>
 						</CardBody>
 						<CardFooter>
@@ -177,7 +175,7 @@ class CardExample extends Component {
 							<CardTitle className="cardTitle">Emily Shoji</CardTitle>
 							<CardSubtitle className="subtitle">Frontend Developer</CardSubtitle>
 							<CardText>
-								A Computer Science major & Pure Mathematics Minor at LMU. Emily is origiinally from Seattle, WA and enjoys teaching and being outdoors.
+								A Software Developer originally from Seattle, WA, Emily enjoys, math, teaching, and being outdoors.
 							</CardText>
 						</CardBody>
 						<CardFooter>
@@ -198,7 +196,7 @@ class CardExample extends Component {
 							<CardTitle className="cardTitle">Danico Pidlaoan</CardTitle>
 							<CardSubtitle className="subtitle">Project Manager / Frontend Developer</CardSubtitle>
 							<CardText>
-								An asipring Software Developer and Project Manager at LMU, Nico is a Senior Computer Science Major and Business Minor.
+								An asipring Software Developer and Project Manager, Nico is driven by a desire to create products and solutions with others. 
 							</CardText>
 						</CardBody>
 						<CardFooter>
