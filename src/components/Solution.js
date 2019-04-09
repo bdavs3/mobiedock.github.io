@@ -99,7 +99,7 @@ export default class Solution extends Component {
       						</div>
       						<div className="service-list-col2">
       							<h3>Book a Station</h3>
-      							<p>Here is some text.</p>
+      							<p>Reserve a station near your destination.</p>
       						</div>
       					</div>
       					<div className="service-list wow fadeInLeft" data-wow-delay="0.5s">
@@ -108,7 +108,7 @@ export default class Solution extends Component {
       						</div>
       						<div className="service-list-col2">
       							<h3>Track Your Rides</h3>
-      							<p>Here is some text.</p>
+      							<p>See how much power you are saving by using MobieDocks.</p>
       						</div>
       					</div>
               </Col>
