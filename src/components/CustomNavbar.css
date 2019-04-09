@@ -6,4 +6,5 @@
 .nav {
   text-transform: uppercase;
   position: fixed;
+  height: 75px;
 }
