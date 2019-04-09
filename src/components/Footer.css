@@ -1,9 +1,10 @@
 .footer img {
-    height: 40px;
+    height: 20px;
     filter: brightness(250%);
+    margin-left: 45%;
 }
 
-.footer .center {
-    text-align: center;
-    margin-bottom: 5px;
+.powered {
+    float: right;
+    margin: 5px 5px 0 0;
 }
