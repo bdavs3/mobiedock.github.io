@@ -1,0 +1,10 @@
+.scooter-logo {
+  max-height: 110px;
+  filter: brightness(0) invert(1);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.compatibility-logos {
+  margin-bottom: 50px;
+}

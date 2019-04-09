@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+//import { Link } from 'react-router-dom';
 //import { Jumbotron, Row, Col, Image, Button } from 'react-bootstrap';
 import './Home.css';
 import WOW from "wowjs";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 const img = require('../shed-lmu2.png');
 const fullPageStyle = {
@@ -30,6 +31,20 @@ export default class Home extends Component {
             <div className ="full-width">
               <h1 className="main-heading wow bounceInRight" data-wow-delay="0.4s">MobieDock</h1>
               <h3 className="text-white wow fadeInUp" data-wow-delay="0.8s"> Charge. Organize. Monetize.</h3>
+
+              <Link className="link"
+                  activeClass="active"
+                  to="problem"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+
+                  <a href="#problem" class="btn btn-primary btn-xl rounded-pill mt-4 wow fadeInUp" data-wow-delay="0.8s"> Learn More </a>
+              </Link>
+
+
             </div>
           </div>
         </div>

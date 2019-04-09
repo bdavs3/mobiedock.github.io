@@ -35,13 +35,14 @@ export default class About extends Component {
 		const wow = new WOW.WOW();
 		wow.init();
   }
-  
+
   render() {
     return (
       <div>
         <section id="problem" className="bg-black text-center">
           <Container className="py-5">
             <h1 > What We're Solving </h1>
+            <h4 className ="py-3"> the problems with electric scooters </h4>
           </Container>
 
           <Container fluid>

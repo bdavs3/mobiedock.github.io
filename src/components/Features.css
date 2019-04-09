@@ -7,3 +7,9 @@
   margin-bottom: 20px;
   margin-top: 20px;
 }
+
+.icon-button:hover {
+  /*background-color: #bd0760 !important;
+  border-color: #bd0760 !important;*/
+  color: #00bcd4 !important;
+}

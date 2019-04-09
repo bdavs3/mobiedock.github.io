@@ -2,3 +2,8 @@
   max-height: 20px !important;
   filter: brightness(250%);
 }
+
+.nav {
+  text-transform: uppercase;
+  position: fixed;
+}

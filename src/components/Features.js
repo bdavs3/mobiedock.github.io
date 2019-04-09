@@ -99,8 +99,7 @@ export default class Features extends Component {
                   </div>
               </Col>
               <Col bg={6} md={6} sm={12} className="p-0">
-                <div className="full-div-image bg-gray">
-                  <div className="overlay"></div>
+                <div className="full-div-image bg-black">
                   <div className="center-page-caption text-center">
                     <div className ="full-width">
                       <h1>Features</h1>

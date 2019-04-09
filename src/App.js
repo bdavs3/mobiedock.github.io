@@ -7,6 +7,7 @@ import About from './components/About';
 import Solution from './components/Solution';
 import Team from './components/Team';
 import Features from './components/Features'
+import Compatibility from './components/Compatibility';
 import Footer from './components/Footer';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -33,6 +34,7 @@ class App extends Component {
           <About path="/" component={About} />
           <Solution path="/" component={Solution} />
           <Features path="/" component={Features} />
+          <Compatibility path="/" component={Compatibility} />
           <Team path="/" component={Team} />
           <Footer/>
         </div>

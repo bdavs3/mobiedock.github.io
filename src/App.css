@@ -28,6 +28,14 @@ h3{
 	font-weight:400;
 }
 
+h4{
+	font-family: 'Montserrat', sans-serif;
+	font-size:16px;
+	margin:0 0 5px 0;
+	text-transform:uppercase;
+	font-weight:400;
+}
+
 h6{
 	font-size:16px;
 	color:#888888;
@@ -41,6 +49,38 @@ p{
 	line-height:24px;
   color:#888888;
 	margin:0;
+}
+
+
+a{
+    color: white;
+}
+
+a:hover {
+    color: blue;
+}
+
+.btn-xl {
+  text-transform: uppercase;
+  padding: 1rem 2.2rem;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1rem;
+}
+
+.btn-primary {
+  background-color: transparent;
+  border-color: white;
+  border-width: 0.1rem;
+}
+
+.btn-primary:active, .btn-primary:focus, .btn-primary:hover {
+  background-color: #00bcd4 !important;
+  border-color: #00bcd4 !important;
+}
+
+.rounded-pill {
+  border-radius: 5rem;
 }
 
 
@@ -62,7 +102,17 @@ p{
 }
 
 .bg-blue {
-  background-color: #0076A5;
+  background-color: #00bcd4;
+}
+
+.bg-blue h1,
+.bg-blue h2,
+.bg-blue h3,
+.bg-blue h4,
+.bg-blue h5,
+.bg-blue h6,
+.bg-blue p {
+  color: white;
 }
 
 .center-page-caption{
