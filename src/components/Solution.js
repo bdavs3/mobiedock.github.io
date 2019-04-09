@@ -20,9 +20,9 @@ export default class Solution extends Component {
           <div className=" container text-center my-5">
             <h1> Our Solution </h1>
             <h6 className="my-4 mx-5">
-            MobieDock is the first sustainably powered eDocking and charging solution for the shared micromobility market.
-            Sleek stations declutter your city or campus, charge devices all day and night, and monetize this growing market –
-            all while harnessing the sun’s energy for zero emissions.
+            MobieDock is the first sustainably powered eDocking solution for the shared micromobility market.
+            Sleek stations declutter your city or campus while charging devices all day and night –
+            all while harnessing the sun’s energy with zero emissions.
             </h6>
           </div>
         </section>
@@ -46,7 +46,7 @@ export default class Solution extends Component {
       						</div>
       						<div className="service-list-col2">
       							<h3>Go Green</h3>
-      							<p>Use leading-edge solar technology for a zero net energy charging solution.</p>
+      							<p>Use cutting-edge solar technology for a zero net energy charging solution.</p>
       						</div>
       					</div>
       					<div className="service-list wow fadeInRight" data-wow-delay="0.5s">
@@ -64,7 +64,7 @@ export default class Solution extends Component {
       						</div>
       						<div className="service-list-col2">
       							<h3>Monetize</h3>
-      							<p>Monetize charging and traffic to benefit all parties.</p>
+      							<p>Provide a cheaper alternative to overnight charging for scooter companies.  Partner with campuses and local businesses and help them benefit from increased community engagement.  Put more scooters and bikes in the hands of the people!</p>
       						</div>
       					</div>
               </Col>
