@@ -11,7 +11,7 @@ import billy from '../images/team-imgs/billy.jpeg';
 import charity from '../images/team-imgs/charity.jpeg';
 import masaki from '../images/team-imgs/masaki.jpeg';
 import matt from '../images/team-imgs/matt.jpeg';
-import alex from '../images/team-imgs/alex.png';
+import alex from '../images/team-imgs/alex.jpeg';
 import ahmad from '../images/team-imgs/ahmad.jpeg';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
