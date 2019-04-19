@@ -77,6 +77,19 @@ export default class CustomNavbar extends Component {
               </Link>
             </Nav.Link>
 
+            <Nav.Link href="#awards">
+              <Link className="link"
+                  activeClass="active"
+                  to="awards"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                Awards
+              </Link>
+            </Nav.Link>
+
             <Nav.Link href="#team">
               <Link className="link"
                   activeClass="active"

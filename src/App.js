@@ -5,6 +5,7 @@ import Home from "./components/Home";
 import Navbar from './components/CustomNavbar';
 import About from './components/About';
 import Solution from './components/Solution';
+import Awards from './components/Awards';
 import Team from './components/Team';
 import Features from './components/Features'
 import Footer from './components/Footer';
@@ -33,6 +34,7 @@ class App extends Component {
           <About path="/" component={About} />
           <Solution path="/" component={Solution} />
           <Features path="/" component={Features} />
+          <Awards path = "/" component={Awards} />
           <Team path="/" component={Team} />
           <Footer/>
         </div>

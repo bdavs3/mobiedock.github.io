@@ -21,6 +21,16 @@ import WOW from 'wowjs';
 const CARD_DELAY = "0.25s";
 
 class CardExample extends Component {
+	constructor(props) {
+		super(props);
+		this.toggle = this.toggle.bind(this);
+		this.state = { collapse: true };
+	  }
+	
+	  toggle() {
+		this.setState(state => ({ collapse: !state.collapse }));
+	  }
+
 	componentDidMount() {
 		const wow = new WOW.WOW();
 		wow.init();
@@ -35,9 +45,9 @@ class CardExample extends Component {
 						<CardBody>
 							<CardTitle className="cardTitle">Billy Walker</CardTitle>
 							<CardSubtitle className="subtitle">CEO / Co-founder</CardSubtitle>
-							<CardText className="text">
+							{/* <CardText className="text">
 								Billy combines his innovative engineering background with a customer focused business sense to develop high value ventures. Billy's sales experience– both B2B and ecommerce– has summed to six digits in sales as a college student. An extensive tech, healthcare, and education network in Los Angeles, Silicon Valley, and Minneapolis gives Billy and MobieDock the avenues for success.
-							</CardText>
+							</CardText> */}
 						</CardBody>
 						<CardFooter>
 							<a href="https://www.linkedin.com/in/billy-walker-4aa914111/">
@@ -50,12 +60,12 @@ class CardExample extends Component {
 						<CardBody>
 							<CardTitle className="cardTitle">Masaki Takamatsu</CardTitle>
 							<CardSubtitle className="subtitle">CTO / Co-founder</CardSubtitle>
-							<CardText className="text">
+							{/* <CardText className="text">
 								Masaki is a Results-focused thought leader with expertise spanning sales management, professional networking, international manufacturing, e-commerce, proposal writing, presentation, negotiation, language translation, cross-functional team leadership, complex problem-solving, client relationship management, and project management.
-							</CardText>
+							</CardText> */}
 						</CardBody>
 						<CardFooter>
-							<a href="http://google.com">
+							<a href="https://www.linkedin.com/in/masaki-takamatsu/">
 								<FontAwesomeIcon ClassName="icon" icon={[ 'fab', 'linkedin' ]} />
 							</a>
 						</CardFooter>
@@ -68,9 +78,9 @@ class CardExample extends Component {
 						<CardBody>
 							<CardTitle className="cardTitle">Charity Waddy</CardTitle>
 							<CardSubtitle className="subtitle">COO/Founder</CardSubtitle>
-							<CardText className="text">
+							{/* <CardText className="text">
 								Mechanical Engineer with a strong motivation to use my experience towards building a career in business operations and organization. Charity also has experience in sales, organization, and development.
-							</CardText>
+							</CardText> */}
 						</CardBody>
 						<CardFooter>
 							<a href="http://linkedin.com/in/charity-waddy-b48668112">
@@ -83,9 +93,9 @@ class CardExample extends Component {
 						<CardBody>
 							<CardTitle className="cardTitle">Ben Davis</CardTitle>
 							<CardSubtitle className="subtitle">Head of Software Systems</CardSubtitle>
-							<CardText className="text">
+							{/* <CardText className="text">
 								Ben is involved with app development and software system integration.  Aside from computer science, Ben takes interest in electronic music, running, and physics.  Mobiedock is an intersection of many of the fields within computer science that he is particularly excited about.
-							</CardText>
+							</CardText> */}
 						</CardBody>
 						<CardFooter>
 							<a href="https://www.linkedin.com/in/ben-davis-a34a55149/">
@@ -101,9 +111,9 @@ class CardExample extends Component {
 						<CardBody>
 							<CardTitle className="cardTitle">Matthew Tejada</CardTitle>
 							<CardSubtitle className="subtitle">CFO</CardSubtitle>
-							<CardText className="text">
+							{/* <CardText className="text">
 								Matt is a entrepreneur with a desire to solve problems and scale businesses. Starting his first venture at sixteen helped form a serious passion for entrepreneurship at a young age. Matthew is consistently working on multiple projects where he specializes in building teams, forming partnerships, and business development. 
-							</CardText>
+							</CardText> */}
 						</CardBody>
 						<CardFooter>
 							<a href="http://linkedin.com/in/charity-waddy-b48668112">
@@ -119,8 +129,9 @@ class CardExample extends Component {
 						<CardBody>
 							<CardTitle className="cardTitle">Ahmad Kalifeh</CardTitle>
 							<CardSubtitle className="subtitle">Mechanical Engineer</CardSubtitle>
-							<CardText className="text">
-								Ahmad is a Mechanical Engieer with experience in automation, Design of Experiments methodology application, and design for manufacturing from work at Mattel, cost-cutting and efficiency improving methods from work with Avcorp & Mattel, research skills and rapid prototyping from work at Emergent Energy.							</CardText>
+							{/* <CardText className="text">
+								Ahmad is a Mechanical Engieer with experience in automation, Design of Experiments methodology application, and design for manufacturing from work at Mattel, cost-cutting and efficiency improving methods from work with Avcorp &amp; Mattel, research skills and rapid prototyping from work at Emergent Energy.							
+							</CardText> */}
 						</CardBody>
 						<CardFooter>
 							<a href="https://www.linkedin.com/in/ben-davis-a34a55149/">
@@ -139,9 +150,9 @@ class CardExample extends Component {
 						<CardBody>
 							<CardTitle className="cardTitle">Alex Lee</CardTitle>
 							<CardSubtitle className="subtitle">Electrical Engineer</CardSubtitle>
-							<CardText className="text">
+							{/* <CardText className="text">
 								Alex is both a talented electrical engineer and athlete. At Mobiedock, he is working on electrical hardware components for the stations.  He is also on a team at Loyola Marymount that is implementing an innovative space technology within the Earth-Moon-Earth communication project.  When he's not tinkering with circuit boards and modeling software, Alex competes at a national level in kayaking with Team USA and is training for the 2020 Olympics.  
-							</CardText>
+							</CardText> */}
 						</CardBody>
 						<CardFooter>
 							<a href="http://google.com">
@@ -154,9 +165,9 @@ class CardExample extends Component {
 						<CardBody>
 							<CardTitle className="cardTitle">Andre De Leon</CardTitle>
 							<CardSubtitle className="subtitle">Mechanical Engineer</CardSubtitle>
-							<CardText className="text">
+							{/* <CardText className="text">
 								Mechanical Engineering Major with proven success collaborating in a team environment, leading design improvement initiatives, and establishing project management milestones. Expertise in CAD drafting, model analysis, and 3D prototyping.
-							</CardText>
+							</CardText> */}
 						</CardBody>
 						<CardFooter>
 							<a href="http://google.com">
@@ -172,9 +183,9 @@ class CardExample extends Component {
 						<CardBody>
 							<CardTitle className="cardTitle">Emily Shoji</CardTitle>
 							<CardSubtitle className="subtitle">Frontend Developer</CardSubtitle>
-							<CardText className="text">
+							{/* <CardText className="text">
 								A Software Developer originally from Seattle, WA,  Emily enjoys math, teaching, and being outdoors.
-							</CardText>
+							</CardText> */}
 						</CardBody>
 						<CardFooter>
 							<a href="https://www.linkedin.com/in/emily-shoji/">
@@ -193,9 +204,9 @@ class CardExample extends Component {
 						<CardBody>
 							<CardTitle className="cardTitle">Danico Pidlaoan</CardTitle>
 							<CardSubtitle className="subtitle">Project Manager / Frontend Developer</CardSubtitle>
-							<CardText className="text">
+							{/* <CardText className="text">
 								An asipring Software Developer and Project Manager, Nico is driven by a desire to create products and solutions with others. 
-							</CardText>
+							</CardText> */}
 						</CardBody>
 						<CardFooter>
 							<a href="https://www.linkedin.com/in/danico-pidlaoan/">

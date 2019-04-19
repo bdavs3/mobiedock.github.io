@@ -5,7 +5,7 @@ import './Home.css';
 import WOW from "wowjs";
 import { Link, animateScroll as scroll } from "react-scroll";
 
-const img = require('../shed-lmu2.png');
+const img = require('../images/home_img.png');
 const fullPageStyle = {
   height: '100vh',
   backgroundImage: `url(${img})`,
