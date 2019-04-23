@@ -36,7 +36,7 @@ export default class Features extends Component {
                             <Col sm={12} md={6} bg={6} className="wow fadeInRight" data-wow-delay="0.5s">
                                 <div className="service-list-col2">
                                     <h2 style={{textAlign: 'center'}}>TCU's annual Values &amp; Ventures competition</h2>
-                                    <p>Mobiedock was a grand finalist and honorable mention at this event, which included over 50 schools that came from a pool of 150 applicants.</p>
+                                    <p>Mobiedock was a grand finalist and honorable mention at <a href='http://www.neeley.tcu.edu/vandv/'>this event</a>, which included over 50 schools that came from a pool of 150 applicants.</p>
                                     <br/>
                                     <p>Teams pitched socially conscious ideas that were judged on feasability and impact by dozens of highly successful entrepreneurs that converged from around the country.</p>
                                     <br/>
