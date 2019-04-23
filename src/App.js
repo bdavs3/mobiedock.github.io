@@ -33,8 +33,8 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <About path="/" component={About} />
           <Solution path="/" component={Solution} />
-          <Features path="/" component={Features} />
           <Awards path = "/" component={Awards} />
+          <Features path="/" component={Features} />
           <Team path="/" component={Team} />
           <Footer/>
         </div>

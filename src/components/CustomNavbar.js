@@ -64,10 +64,10 @@ export default class CustomNavbar extends Component {
               </Link>
             </Nav.Link>
 
-            <Nav.Link href="#features">
+            <Nav.Link href="#feature">
               <Link className="link"
                   activeClass="active"
-                  to="features"
+                  to="feature"
                   spy={true}
                   smooth={true}
                   offset={-70}

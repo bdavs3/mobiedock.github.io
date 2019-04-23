@@ -10,12 +10,12 @@ const img = require('../images/dock-render-1.jpeg');
 const img2 = require('../images/dock-render-2.jpeg');
 const img3 = require('../images/dock-render-3.jpg');
 
+const render1 = require('../images/dock1.jpeg');
+const render2 = require('../images/dock2.jpeg');
+
 const gif1 = require('../images/how_to_1.gif');
 const gif2 = require('../images/how_to_2.gif');
 const gif3 = require('../images/how_to_3.gif');
-
-const render1 = require('../images/dock1.jpeg');
-const render2 = require('../images/dock2.jpeg');
 
 const demonstrationUrl = 'https://www.youtube.com/watch?v=wN88FOp9Z6U';
 
@@ -63,6 +63,12 @@ export default class Features extends Component {
   render() {
     return (
       <div>
+        <section id="feature" className="py-5">
+            <div className=" container text-center my-5">
+                <h1> Features </h1>
+            </div>
+        </section>
+
         <section id="features" className="bg-black text-center">
           <Container fluid>
             <Row className="row-eq-height">
@@ -112,19 +118,6 @@ export default class Features extends Component {
           </Container>
 
         </section>
-        <section>
-          <Row className="row-eq-height">
-            <Col sm={4} md={4} bg={12}>
-              <a href={demonstrationUrl} target="_blank"><img src={gif1} height={250}/></a>
-            </Col>
-            <Col sm={4} md={4} bg={12}>
-              <a href={demonstrationUrl} target="_blank"><img src={gif2} height={250}/></a>
-            </Col>
-            <Col sm={4} md={4} bg={12}>
-              <a href={demonstrationUrl} target="_blank"><img src={gif3} height={250}/></a>
-            </Col>
-          </Row>
-        </section>
 
         <section id="compatibility" className="bg-blue text-center">
           <Container className="py-4">
@@ -143,6 +136,20 @@ export default class Features extends Component {
               </Col>
             </Row>
           </Container>
+        </section>
+
+        <section>
+          <Row className="row-eq-height">
+            <Col sm={4} md={4} bg={12}>
+              <a href={demonstrationUrl} target="_blank"><img src={gif1} height={250}/></a>
+            </Col>
+            <Col sm={4} md={4} bg={12}>
+              <a href={demonstrationUrl} target="_blank"><img src={gif2} height={250}/></a>
+            </Col>
+            <Col sm={4} md={4} bg={12}>
+              <a href={demonstrationUrl} target="_blank"><img src={gif3} height={250}/></a>
+            </Col>
+          </Row>
         </section>
       </div>
     )

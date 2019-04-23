@@ -11,3 +11,7 @@
         font-size: 20px;
     }
 }
+
+a:link {
+    color: white;
+}
