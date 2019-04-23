@@ -21,16 +21,6 @@ import WOW from 'wowjs';
 const CARD_DELAY = "0.25s";
 
 class CardExample extends Component {
-	constructor(props) {
-		super(props);
-		this.toggle = this.toggle.bind(this);
-		this.state = { collapse: true };
-	  }
-	
-	  toggle() {
-		this.setState(state => ({ collapse: !state.collapse }));
-	  }
-
 	componentDidMount() {
 		const wow = new WOW.WOW();
 		wow.init();
