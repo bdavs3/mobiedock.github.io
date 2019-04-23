@@ -6,16 +6,16 @@ import ReactPlayer from 'react-player'; // for next iteration of site (with vide
 import WOW from 'wowjs';
 import './Features.css';
 
-const img = require('../images/dock-render-1.jpg');
-const img2 = require('../images/dock-render-2.jpg');
+const img = require('../images/dock-render-1.jpeg');
+const img2 = require('../images/dock-render-2.jpeg');
 const img3 = require('../images/dock-render-3.jpg');
 
 const gif1 = require('../images/how_to_1.gif');
 const gif2 = require('../images/how_to_2.gif');
 const gif3 = require('../images/how_to_3.gif');
 
-const render1 = require('../images/dock1.jpg');
-const render2 = require('../images/dock2.jpg');
+const render1 = require('../images/dock1.jpeg');
+const render2 = require('../images/dock2.jpeg');
 
 const demonstrationUrl = 'https://www.youtube.com/watch?v=wN88FOp9Z6U';
 
@@ -129,7 +129,7 @@ export default class Features extends Component {
         <section id="compatibility" className="bg-blue text-center">
           <Container className="py-4">
             <h1 > Compatibility </h1>
-            <h4 className ="py-1"> Our stations can charge and organize any electric scooter.</h4>
+            <h4 className ="py-1"> Our stations charge any electric scooter.</h4>
           </Container>
 
           <Container>

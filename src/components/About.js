@@ -6,7 +6,7 @@ import './About.css';
 import WOW from 'wowjs';
 
 const img = require('../images/scooter-clutter.jpg');
-const img2 = require('../images/electric-grid.jpg');
+const img2 = require('../images/electric-grid.jpeg');
 const img3 = require('../images/bird-clutter2.jpg');
 
 const fullDivStyle = {
