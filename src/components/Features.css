@@ -32,16 +32,29 @@ section#feature.py-5 {
 
 #play-button {
   color: white;
-  width: 75px;
-  height: 75px;
+  width: 9.6vw;
+  height: 5.4vh;
   position: absolute;
-  left: 43%;
-  top: 40%;
+  left: 12vw;
+  top: 7vw;
 }
 
-@media(max-width: 1024px) {
+@media screen and (max-width: 992px) {
+  #play-button {
+    width: 19.20vw !important;
+    height: 10.80vh !important;
+    left: 40vw !important;
+    top: 18vw !important;
+  }
+}
+
+.gifs {
+  width: 33.33vw;
+}
+
+@media screen and (max-width: 992px) {
   .gifs {
-    width: 100vw;
-    height: 56.25vw;
+    width: 100vw !important;
+    height: 56.25vw !important;
   }
 }

@@ -139,20 +139,22 @@ export default class Features extends Component {
         </section>
 
         <section>
-          <Row className="row-eq-height">
-            <Col sm={4} md={4} bg={12}>
-              <a href={demonstrationUrl} target="_blank"><img className="gifs" src={gif1} height={250}/></a>
-            </Col>
-            <Col sm={4} md={4} bg={12}>
-              <a href={demonstrationUrl} target="_blank">
-                <FontAwesomeIcon id="play-button" className="icon" icon="play-circle" />
-              </a>
-              <a href={demonstrationUrl} target="_blank"><img className="gifs" src={gif2} height={250}/></a>
-            </Col>
-            <Col sm={4} md={4} bg={12}>
-              <a href={demonstrationUrl} target="_blank"><img className="gifs" src={gif3} height={250}/></a>
-            </Col>
-          </Row>
+          <Container fluid>
+            <Row className="row-eq-height">
+              <Col style={{padding: "0px"}} sm={12} md={12} lg={4}>
+                <a href={demonstrationUrl} target="_blank"><img className="gifs" src={gif1}/></a>
+              </Col>
+              <Col style={{padding: "0px"}} sm={12} md={12} lg={4}>
+                <a href={demonstrationUrl} target="_blank">
+                  <FontAwesomeIcon id="play-button" className="icon" icon="play-circle" />
+                </a>
+                <a href={demonstrationUrl} target="_blank"><img className="gifs" src={gif2}/></a>
+              </Col>
+              <Col style={{padding: "0px"}} sm={12} md={12} lg={4}>
+                <a href={demonstrationUrl} target="_blank"><img className="gifs" src={gif3}/></a>
+              </Col>
+            </Row>
+          </Container>
         </section>
       </div>
     )
