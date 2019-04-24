@@ -141,13 +141,16 @@ export default class Features extends Component {
         <section>
           <Row className="row-eq-height">
             <Col sm={4} md={4} bg={12}>
-              <a href={demonstrationUrl} target="_blank"><img src={gif1} height={250}/></a>
+              <a href={demonstrationUrl} target="_blank"><img className="gifs" src={gif1} height={250}/></a>
             </Col>
             <Col sm={4} md={4} bg={12}>
-              <a href={demonstrationUrl} target="_blank"><img src={gif2} height={250}/></a>
+              <a href={demonstrationUrl} target="_blank">
+                <FontAwesomeIcon id="play-button" className="icon" icon="play-circle" />
+              </a>
+              <a href={demonstrationUrl} target="_blank"><img className="gifs" src={gif2} height={250}/></a>
             </Col>
             <Col sm={4} md={4} bg={12}>
-              <a href={demonstrationUrl} target="_blank"><img src={gif3} height={250}/></a>
+              <a href={demonstrationUrl} target="_blank"><img className="gifs" src={gif3} height={250}/></a>
             </Col>
           </Row>
         </section>
