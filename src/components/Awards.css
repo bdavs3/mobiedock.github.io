@@ -7,18 +7,21 @@ section#award.py-5 {
     padding-top: 8px !important;
 }
 
-a:link {
+a {
+    text-decoration: none !important;
+}
+
+a:link, a:visited, a:hover, a:active {
     color: #00bcd4;
 }
 
-a:visited {
-    color: #00bcd4;
+a h2 {
+    color: #000000;
 }
 
-a:hover {
-    color: #00bcd4;
-}
-
-a:active {
-    color: #00bcd4;
+@media(max-width: 768px) {
+    h2 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
 }

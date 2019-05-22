@@ -8,6 +8,7 @@ import './Awards.css';
 import { faCentercode } from '@fortawesome/free-brands-svg-icons';
 
 const teamImg = require('../images/TcuV&V_awards_photo.jpg');
+const competitionLink = 'http://www.neeley.tcu.edu/vandv/';
 
 var h3Style = {
     textAlign: "center",
@@ -30,17 +31,17 @@ export default class Features extends Component {
                 <section>
                     <Container>
                         <Row className="row-eq-height">
-                            <Col sm={12} md={6} bg={6} className="wow fadeInLeft" data-wow-delay="0.5s">
-                                <Image src={teamImg} fluid />
+                            <Col sm={12} md={6} bg={6} className="wow fadeInUp" data-wow-delay="0.5s">
+                            <a href={competitionLink}><Image src={teamImg} fluid /></a>
                             </Col>
-                            <Col sm={12} md={6} bg={6} className="wow fadeInRight" data-wow-delay="0.5s">
+                            <Col sm={12} md={6} bg={6} className="wow fadeInUp" data-wow-delay="0.5s">
                                 <div className="service-list-col2">
-                                    <h2 style={{textAlign: 'center'}}>TCU's annual Values &amp; Ventures competition</h2>
-                                    <p>Mobiedock was a grand finalist and honorable mention at <a href='http://www.neeley.tcu.edu/vandv/'>this event</a>, which included over 50 schools that came from a pool of 150 applicants.</p>
+                                    <a href={competitionLink}><h2 style={{textAlign: 'center'}}>TCU Values &amp; Ventures</h2></a>
+                                    <p>Mobiedock was a grand finalist and honorable mention at <a href={competitionLink}>this event</a>, which included over 50 teams that earned selection from a pool of 150 applicants.</p>
                                     <br/>
                                     <p>Teams pitched socially conscious ideas that were judged on feasability and impact by dozens of highly successful entrepreneurs that converged from around the country.</p>
                                     <br/>
-                                    <p>For their placement, the team was awarded with cash and other tools to support their growing business.</p>
+                                    <p>For their placement, the team was awarded with cash and other tools to support business growth.</p>
       						    </div>
                             </Col>
                         </Row>

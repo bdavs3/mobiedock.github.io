@@ -67,7 +67,7 @@ class CardExample extends Component {
 						<CardImg className="photo" top width="100%" src={charity} alt="Charity Waddy" />
 						<CardBody>
 							<CardTitle className="cardTitle">Charity Waddy</CardTitle>
-							<CardSubtitle className="subtitle">COO/Founder</CardSubtitle>
+							<CardSubtitle className="subtitle">COO</CardSubtitle>
 							{/* <CardText className="text">
 								Mechanical Engineer with a strong motivation to use my experience towards building a career in business operations and organization. Charity also has experience in sales, organization, and development.
 							</CardText> */}
@@ -75,24 +75,6 @@ class CardExample extends Component {
 						<CardFooter>
 							<a href="http://linkedin.com/in/charity-waddy-b48668112">
 								<FontAwesomeIcon ClassName="icon" icon={[ 'fab', 'linkedin' ]} />
-							</a>
-						</CardFooter>
-					</Card>
-					<Card className="wow fadeInUp" data-wow-delay={CARD_DELAY}>
-						<CardImg className="photo" top width="100%" src={ben} alt="Ben Davis" />
-						<CardBody>
-							<CardTitle className="cardTitle">Ben Davis</CardTitle>
-							<CardSubtitle className="subtitle">Head of Software Systems</CardSubtitle>
-							{/* <CardText className="text">
-								Ben is involved with app development and software system integration.  Aside from computer science, Ben takes interest in electronic music, running, and physics.  Mobiedock is an intersection of many of the fields within computer science that he is particularly excited about.
-							</CardText> */}
-						</CardBody>
-						<CardFooter>
-							<a href="https://www.linkedin.com/in/ben-davis-a34a55149/">
-								<FontAwesomeIcon ClassName="icon" icon={[ 'fab', 'linkedin' ]} />
-							</a>
-							<a href="https://github.com/bdavs3">
-								<FontAwesomeIcon ClassName="icon" icon={[ 'fab', 'github' ]} />
 							</a>
 						</CardFooter>
 					</Card>
@@ -106,21 +88,18 @@ class CardExample extends Component {
 							</CardText> */}
 						</CardBody>
 						<CardFooter>
-							<a href="http://linkedin.com/in/charity-waddy-b48668112">
+							<a href="https://www.linkedin.com/in/matthew-tejada-b50a18129/">
 								<FontAwesomeIcon ClassName="icon" icon={[ 'fab', 'linkedin' ]} />
 							</a>
 						</CardFooter>
 					</Card>
-				</CardDeck>
-					
-				<CardDeck className="lead">
 					<Card className="wow fadeInUp" data-wow-delay={CARD_DELAY}>
-						<CardImg className="photo" top width="100%" src={ahmad} alt="Ahmad Kalifeh" />
+						<CardImg className="photo" top width="100%" src={ben} alt="Ben Davis" />
 						<CardBody>
-							<CardTitle className="cardTitle">Ahmad Kalifeh</CardTitle>
-							<CardSubtitle className="subtitle">Mechanical Engineer</CardSubtitle>
+							<CardTitle className="cardTitle">Ben Davis</CardTitle>
+							<CardSubtitle className="subtitle">Director of Software</CardSubtitle>
 							{/* <CardText className="text">
-								Ahmad is a Mechanical Engieer with experience in automation, Design of Experiments methodology application, and design for manufacturing from work at Mattel, cost-cutting and efficiency improving methods from work with Avcorp &amp; Mattel, research skills and rapid prototyping from work at Emergent Energy.							
+								Ben is involved with app development and software system integration.  Aside from computer science, Ben takes interest in electronic music, running, and physics.  Mobiedock is an intersection of many of the fields within computer science that he is particularly excited about.
 							</CardText> */}
 						</CardBody>
 						<CardFooter>
@@ -129,84 +108,6 @@ class CardExample extends Component {
 							</a>
 							<a href="https://github.com/bdavs3">
 								<FontAwesomeIcon ClassName="icon" icon={[ 'fab', 'github' ]} />
-							</a>
-							<a href="http://google.com">
-								<FontAwesomeIcon ClassName="icon" icon={[ 'fas', 'user-circle' ]} />
-							</a>
-						</CardFooter>
-					</Card>
-					<Card className="wow fadeInUp" data-wow-delay={CARD_DELAY}>
-						<CardImg className="photo" top width="100%" src={alex} alt="Alex Lee" />
-						<CardBody>
-							<CardTitle className="cardTitle">Alex Lee</CardTitle>
-							<CardSubtitle className="subtitle">Electrical Engineer</CardSubtitle>
-							{/* <CardText className="text">
-								Alex is both a talented electrical engineer and athlete. At Mobiedock, he is working on electrical hardware components for the stations.  He is also on a team at Loyola Marymount that is implementing an innovative space technology within the Earth-Moon-Earth communication project.  When he's not tinkering with circuit boards and modeling software, Alex competes at a national level in kayaking with Team USA and is training for the 2020 Olympics.  
-							</CardText> */}
-						</CardBody>
-						<CardFooter>
-							<a href="http://google.com">
-								<FontAwesomeIcon ClassName="icon" icon={[ 'fab', 'linkedin' ]} />
-							</a>
-						</CardFooter>
-					</Card>
-					<Card className="wow fadeInUp" data-wow-delay={CARD_DELAY}>
-						<CardImg className="photo" top width="100%" src={andre} alt="Andre De Leon" />
-						<CardBody>
-							<CardTitle className="cardTitle">Andre De Leon</CardTitle>
-							<CardSubtitle className="subtitle">Mechanical Engineer</CardSubtitle>
-							{/* <CardText className="text">
-								Mechanical Engineering Major with proven success collaborating in a team environment, leading design improvement initiatives, and establishing project management milestones. Expertise in CAD drafting, model analysis, and 3D prototyping.
-							</CardText> */}
-						</CardBody>
-						<CardFooter>
-							<a href="http://google.com">
-								<FontAwesomeIcon ClassName="icon" icon={[ 'fab', 'linkedin' ]} />
-							</a>
-						</CardFooter>
-					</Card>
-				</CardDeck>
-				
-				<CardDeck className="deck2 lead">
-					<Card className="wow fadeInUp" data-wow-delay={CARD_DELAY}>
-						<CardImg className="photo" top width="100%" src={emily} alt="Emily Shoji" />
-						<CardBody>
-							<CardTitle className="cardTitle">Emily Shoji</CardTitle>
-							<CardSubtitle className="subtitle">Frontend Developer</CardSubtitle>
-							{/* <CardText className="text">
-								A Software Developer originally from Seattle, WA,  Emily enjoys math, teaching, and being outdoors.
-							</CardText> */}
-						</CardBody>
-						<CardFooter>
-							<a href="https://www.linkedin.com/in/emily-shoji/">
-								<FontAwesomeIcon ClassName="icon" icon={[ 'fab', 'linkedin' ]} />
-							</a>
-							<a href="https://github.com/ItsEmShoji">
-								<FontAwesomeIcon ClassName="icon" icon={[ 'fab', 'github' ]} />
-							</a>
-							<a href="https://itsemshoji.github.io/">
-								<FontAwesomeIcon ClassName="icon" icon={[ 'fas', 'user-circle' ]} />
-							</a>
-						</CardFooter>
-					</Card>
-					<Card className="wow fadeInUp" data-wow-delay={CARD_DELAY}>
-						<CardImg className="photo" top width="100%" src={nico} alt="Danico Pidlaoan" />
-						<CardBody>
-							<CardTitle className="cardTitle">Danico Pidlaoan</CardTitle>
-							<CardSubtitle className="subtitle">Project Manager / Frontend Developer</CardSubtitle>
-							{/* <CardText className="text">
-								An asipring Software Developer and Project Manager, Nico is driven by a desire to create products and solutions with others. 
-							</CardText> */}
-						</CardBody>
-						<CardFooter>
-							<a href="https://www.linkedin.com/in/danico-pidlaoan/">
-								<FontAwesomeIcon ClassName="icon" icon={[ 'fab', 'linkedin' ]} />
-							</a>
-							<a href="https://github.com/danicobryan">
-								<FontAwesomeIcon ClassName="icon" icon={[ 'fab', 'github' ]} />
-							</a>
-							<a href="https://danicobryan.github.io/">
-								<FontAwesomeIcon ClassName="icon" icon={[ 'fas', 'user-circle' ]} />
 							</a>
 						</CardFooter>
 					</Card>

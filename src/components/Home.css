@@ -10,4 +10,9 @@
     .small-heading {
         font-size: 20px;
     }
+
+    h3 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
 }
