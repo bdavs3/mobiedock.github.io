@@ -2,6 +2,10 @@
   font-size: 60px;
 }
 
+.btn-primary:focus {
+    box-shadow: none !important;
+}
+
 @media(max-width: 768px) {
     .main-heading {
         font-size: 45px;
