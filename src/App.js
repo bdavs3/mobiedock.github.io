@@ -5,9 +5,10 @@ import Home from "./components/Home";
 import Navbar from './components/CustomNavbar';
 import About from './components/About';
 import Solution from './components/Solution';
+import Features from './components/Features';
 import Awards from './components/Awards';
 import Team from './components/Team';
-import Features from './components/Features'
+import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -33,9 +34,10 @@ class App extends Component {
           <Route exact path="/" component={Home} />
           <About path="/" component={About} />
           <Solution path="/" component={Solution} />
-          <Awards path = "/" component={Awards} />
           <Features path="/" component={Features} />
+          <Awards path = "/" component={Awards} />
           <Team path="/" component={Team} />
+          <Contact path="/" component={Contact}/>
           <Footer/>
         </div>
       </Router>

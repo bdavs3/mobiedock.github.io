@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import { Row, Col, Image, Button, Container, Carousel } from 'react-bootstrap';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import ReactPlayer from 'react-player'; // for next iteration of site (with video)
 import WOW from 'wowjs';
 import './Features.css';
 

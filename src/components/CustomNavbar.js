@@ -64,19 +64,6 @@ export default class CustomNavbar extends Component {
               </Link>
             </Nav.Link>
 
-            <Nav.Link href="#awards">
-              <Link className="link"
-                  activeClass="active"
-                  to="awards"
-                  spy={true}
-                  smooth={true}
-                  offset={-70}
-                  duration={500}
-                >
-                Awards
-              </Link>
-            </Nav.Link>
-
             <Nav.Link href="#feature">
               <Link className="link"
                   activeClass="active"
@@ -90,6 +77,19 @@ export default class CustomNavbar extends Component {
               </Link>
             </Nav.Link>
 
+            <Nav.Link href="#awards">
+              <Link className="link"
+                  activeClass="active"
+                  to="awards"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                Awards
+              </Link>
+            </Nav.Link>
+
             <Nav.Link href="#team">
               <Link className="link"
                   activeClass="active"
@@ -100,6 +100,19 @@ export default class CustomNavbar extends Component {
                   duration={500}
                 >
                 Team
+              </Link>
+            </Nav.Link>
+
+            <Nav.Link href="#contact">
+              <Link className="link"
+                  activeClass="active"
+                  to="contact"
+                  spy={true}
+                  smooth={true}
+                  offset={-70}
+                  duration={500}
+                >
+                Contact
               </Link>
             </Nav.Link>
           </Nav>
