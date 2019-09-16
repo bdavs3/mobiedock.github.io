@@ -1,0 +1,60 @@
+#features .full-div-image {
+  height: 455px;
+}
+
+.icon-button {
+  font-size: 90px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.icon-button:hover {
+  /*background-color: #bd0760 !important;
+  border-color: #bd0760 !important;*/
+  color: #00bcd4 !important;
+}
+
+.scooter-logo {
+  max-height: 110px;
+  filter: brightness(0) invert(1);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.compatibility-logos {
+  margin-bottom: 50px;
+}
+
+section#feature.py-5 {
+  padding-bottom: 0px !important;
+  padding-top: 8px !important;
+}
+
+#play-button {
+  color: white;
+  width: 9.6vw;
+  height: 5.4vh;
+  position: absolute;
+  left: 12vw;
+  top: 7vw;
+}
+
+@media screen and (max-width: 992px) {
+  #play-button {
+    width: 19.20vw !important;
+    height: 10.80vh !important;
+    left: 40vw !important;
+    top: 18vw !important;
+  }
+}
+
+.gifs {
+  width: 33.33vw;
+}
+
+@media screen and (max-width: 992px) {
+  .gifs {
+    width: 100vw !important;
+    height: 56.25vw !important;
+  }
+}

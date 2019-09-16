@@ -1,0 +1,68 @@
+.cards .card {
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+	font-weight: 400;
+	position: relative;
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-direction: column;
+	flex-direction: column;
+	min-width: 0;
+	word-wrap: break-word;
+	background-color: #fff;
+	background-clip: border-box;
+	border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .9rem;
+    margin-top: 30px;
+}
+
+
+.cards img.img-fluid {
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16), 0 2px 10px 0 rgba(0, 0, 0, .12);
+    height: auto;
+    width: 400px;
+    object-fit: scale-down;
+    padding: 5px;
+}
+
+.cards .rgba-white-slight, .rgba-white-slight:after {
+    background-color: rgba(255,255,255,.1);
+}
+
+.cards a {
+    font-size: 30px;
+    margin: 0 5px 0 5px;
+    color: #00bcd4;
+}
+
+.subtitle {
+    font-size: 85%;
+}
+
+.text {
+    font-size: 80%;
+}
+
+.cardTitle {
+    font-weight: 700;
+    font-size: 105%;
+}
+
+.alex {
+    width:34%;
+    margin: auto;
+}
+
+.photo {
+    border-radius: .9rem .9rem 0 0;
+}
+
+@media only screen and (min-width: 824px) {
+    .deck {
+        margin: 0 10% 0 10%;
+    }
+    
+    .deck2 {
+        margin: 0 15% 0 15%;
+    }
+}

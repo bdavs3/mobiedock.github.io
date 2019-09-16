@@ -1,0 +1,27 @@
+h1 {
+    margin-bottom: 0px;
+}
+
+section#award.py-5 {
+    padding-bottom: 0px !important;
+    padding-top: 8px !important;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color: #00bcd4;
+}
+
+a h2 {
+    color: #000000;
+}
+
+@media(max-width: 768px) {
+    h2 {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+}
